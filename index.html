@@ -8,6 +8,7 @@
     <link href="stylesheet.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -15,24 +16,23 @@
 
 
     <section class = 'banner'>
-            <div class = 'main_title'>
+            <div class = 'main_title' id="main_title">
                 <h1 style= 'color: white;'><span>Body Museum</span></h1>
-
-                <div class = 'main_button'>
-                    <h2><a href='profiles.html' class = 'btn'>Tell Me More</a></h2>
-                </div>
             </div>
 
     </section>
 
 
     <section class = 'main_galleries'>
-        <div class = 'describe'>
-            <p>The ways that we sit help define us, but what defines the ways that we sit?</p>
-        </div>
-        <div class = 'gallery_title'>
-            <h2 style= 'text-decoration: underline;'>Galleries</h2>
-        <div class = 'gallery'>
+      <div class = 'main_button'>
+          <h2 id="h2">
+            <a href='profiles.html' class = 'btn'>Learn More</a>
+          </h2>
+      </div>
+      <div class = 'describe' id="describe">
+            <p>The ways that we sit help define us... <br>But what defines the ways that we sit?</p>
+      </div>
+      <div class = 'gallery'>
 
 
               <a href= '#'>
@@ -40,9 +40,11 @@
                   <img src= 'media/title_gal_1.jpg' alt='gallery 1'
                         srcset= "media/title_gal_1.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
+                            (min-width: 1000px) 35vw,
                             254px,">
-                  <h3>Coffee Shop</h3>
+                  <div class="gal_name">
+                    <h3>Coffee Shop</h3>
+                  </div>
                 </div>
               </a>
 
@@ -52,9 +54,10 @@
                   <img src= 'media/title_gal_2.jpg' alt='gallery 2'
                         srcset= "media/title_gal_2.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
-                            254px,">
-                  <h3>Commuting</h3>
+                            (min-width: 1000px) 35vw,                            254px,">
+                  <div class="gal_name">
+                    <h3>Commuting</h3>
+                  </div>
                 </div>
               </a>
 
@@ -63,9 +66,11 @@
                   <img src= 'media/title_gal_3.jpg' alt='gallery 3'
                         srcset= "media/title_gal_3.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
+                            (min-width: 1000px) 35vw,
                             254px,">
-                  <h3>Overworked</h3>
+                  <div class="gal_name">
+                    <h3>Overworked</h3>
+                  </div>
                 </div>
               </a>
 
@@ -74,9 +79,11 @@
                   <img src= 'media/title_gal_4.jpg' alt='gallery 4'
                         srcset= "media/title_gal_4.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
+                            (min-width: 1000px) 35vw,
                             254px,">
-                  <h3>House Party</h3>
+                  <div class="gal_name">
+                    <h3>House Party</h3>
+                  </div>
                 </div>
               </a>
 
@@ -85,9 +92,11 @@
                   <img src= 'media/title_gal_5.jpg' alt='gallery 5'
                         srcset= "media/title_gal_5.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
+                            (min-width: 1000px) 35vw,
                             254px,">
-                  <h3>Movie Theatre</h3>
+                  <div class="gal_name">
+                    <h3>Movie Theatre</h3>
+                  </div>
                 </div>
               </a>
 
@@ -96,9 +105,10 @@
                   <img src= 'media/title_gal_fav.jpg' alt='gallery 6'
                         srcset= "media/title_gal_fav.jpg 640w"
                         sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
-                            (min-width: 1440px) 15vw, (min-width: 1000px) 14vw,
+                            (min-width: 1000px) 35vw,
                             254px,">
-                  <h3>Favourite</h3>
+                  <div class="gal_name"><h3>Favourite</h3>
+                  </div>
                 </div>
               </a>
         </div>
@@ -108,8 +118,22 @@
 
 
   <footer>
+    <div class="contact" id="contact">
+      <i class="fa fa-instagram"></i>
+        <a href="https://www.instagram.com/body_museum/">body_museum</a>
+          <br>
+            &#x2706 +44 7435 584660
+              <br>
+                &#x2709 valentinapolc@gmail.com
+    </div>
     <div class="copyright">
-      Reynard van den Berg
+      Project by Valentina Polcovnicova
+        <br>
+          <br>
+            &copy Body Museum | All Rights Reserved |
+              <br>
+                <br>
+                  Website Creator Rey van den Berg
     </div>
   </footer>
 </html>

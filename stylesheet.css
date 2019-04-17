@@ -2,11 +2,12 @@ html {
   font-size: 12px;
   height: 100%;
   font-family: 'Alegreya';
+  background-color: black;
 }
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(12px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(18px + 10 * ((100vw - 320px) / 680));
   }
   h1 {
     font-size: calc(45px + 10 * ((100vw - 320px) / 680));
@@ -16,10 +17,28 @@ html {
     font-size: calc(15px + 10 * ((100vw - 320px) / 680));
   }
 
-  .pic_block {
+  #describe {
+    padding: 9vh 0;
+  }
 
+  #h2 {
+    margin: 2vh 0;
+  }
+
+  #main_title {
+    padding-bottom: 14vh;
+    padding-top: 14vh;
+  }
+
+  #contact {
+    font-size: 3vh;
+  }
+
+  footer {
+    font-size: 2vh;
   }
 }
+
 @media screen and (min-width: 1000px) {
   html {
     font-size:25px;
@@ -62,9 +81,17 @@ h1 span {
   padding: 1vh 0;
 }
 
+.main_button h2 {
+  margin: 4vh 0;
+}
+
+.main_button h2 a:hover {
+  border: 1px solid #a77550;
+}
+
 .main_title {
-  padding-bottom: 2vh;
-  padding-top: 6vh;
+  padding-bottom: 18vh;
+  padding-top: 18vh;
 }
 
 .total_title {
@@ -85,6 +112,7 @@ h1 span {
 .describe {
   display: inline-block;
   border-top: 4px solid #a77550;
+  max-width: 80vw;
 }
 
 .describe p {
@@ -125,9 +153,11 @@ h1 span {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-top: 5vh;
 }
 
 .pic_block {
+  padding: 0 3vw 3vw 3vw;
   position: relative;
   margin: 10px;
 }
@@ -141,4 +171,46 @@ h1 span {
   font-weight: 500;
   font-style: italic;
   padding: 0 5px;
+}
+
+.gal_name {
+  opacity: 0;
+}
+
+.pic_block:hover > .gal_name {
+  opacity: 1;
+  transition: all ease 0.8s;
+}
+
+footer {
+  margin-top: 10vh;
+  background-color: black;
+  border-top: 1px solid #a77550;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  position: relative;
+}
+
+.copyright {
+  line-height: 1.7vh;
+  padding: 0 0 2em 2em;
+  left: 0;
+  text-align: left;
+}
+
+.contact {
+  padding: 4em 0 3em 0;
+  line-height: 1.7em;
+  justify-content: center;
+}
+
+.contact a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact a {
+  text-decoration: none;
+  color: white;
 }
