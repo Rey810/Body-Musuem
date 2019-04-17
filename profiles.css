@@ -24,6 +24,10 @@ html {
     width:23vw;
     height:40vh;
   }
+  #gallery-block {
+    height: 50vh;
+    width: 30vw;
+  }
 }
 
 @media screen and (max-width:900px) and (min-width:600px) {
@@ -161,6 +165,30 @@ p {
 /*Removes scroll bar on webkit browsers*/
   ::-webkit-scrollbar {
     display: none;
+}
+
+.title-galleries-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.galleries-title {
+  text-align: center;
+  font-size: 5vh;
+}
+
+.galleries-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.gallery-block {
+  border: 1px solid black;
+  height: 40vh;
+  width: 70vw;
+  margin: 2vh;
 }
 
 footer {

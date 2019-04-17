@@ -1,16 +1,34 @@
 html {
-  font-size: 8px;
+  font-size: 12px;
   height: 100%;
+  font-family: 'Alegreya';
 }
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(8px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(12px + 10 * ((100vw - 320px) / 680));
+  }
+  h1 {
+    font-size: calc(55px + 10 * ((100vw - 320px) / 680));
+  }
+
+  h2 {
+    font-size: calc(15px + 10 * ((100vw - 320px) / 680));
+  }
+
+  .pic_block {
+
   }
 }
 @media screen and (min-width: 1000px) {
   html {
-    font-size:20px;
+    font-size:25px;
+  }
+  h1 {
+    font-size: calc(80px + 10 * ((100vw - 320px) / 680));
+  }
+  h2 {
+    font-size: calc(25px + 10 * ((100vw - 320px) / 680));
   }
 }
 
@@ -27,8 +45,23 @@ section {
   /* flex: 0.5; */
 }
 
+h1 {
+  font-family: 'Alegreya', serif;
+}
+
+h1 span {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 0 10px;
+  border-radius: 15px;
+}
+
+.main_button {
+  padding: 1vh 0;
+}
+
 .main_title {
-  padding-bottom: 20px;
+  padding-bottom: 2vh;
+  padding-top: 6vh;
 }
 
 .total_title {
@@ -42,32 +75,39 @@ section {
 
 .gallery_title h2 {
   margin: 0;
+  color: white;
+}
+
+
+.describe {
+  display: inline-block;
+  border-top: 4px solid #a77550;
 }
 
 .describe p {
-  margin: 1vh;
+  color: white;
+  font-weight: 500;
+  font-style: italic;
 }
 
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.7);
+  font-family: 'Alegreya', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: #a77550;
   border: none;
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
-  color: white;
-  background-color: #F05F40;
   padding: 10px 20px;
   position: relative;
   display: inline-block;
   margin-bottom: 5px;
-  font-size: 1.5vh;
   text-decoration: none;
 }
 
 .banner {
-  padding: 13vh;
-  background-image: url("media/dancer.jpg");
-  background-size: cover;
+  background-image: url("media/header_pic.jpg");
+  background-size: contain;
   flex: 1;
   justify-content: center;
 }
@@ -75,11 +115,7 @@ section {
 .main_galleries {
   flex: 1;
   justify-content: center;
-}
-
-.describe {
-  margin: 0 30vw;
-  border-top: 2px solid #F05F40;
+  background-color: black;
 }
 
 .gallery {
@@ -89,7 +125,6 @@ section {
 }
 
 .pic_block {
-  border: 1px solid black;
-  padding: 100px;
+  position: relative;
   margin: 10px;
 }
