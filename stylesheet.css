@@ -137,7 +137,7 @@ h1 span {
 }
 
 .banner {
-  background-image: url("media/header_pic.jpg");
+  background-image: url("Media/header_pic.jpg");
   background-size: contain;
   flex: 1;
   justify-content: center;
