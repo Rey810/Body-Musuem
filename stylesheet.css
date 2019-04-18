@@ -165,6 +165,7 @@ h1 span {
   display: inline-block;
   border-top: 4px solid #a77550;
   max-width: 80vw;
+  margin-top: 3vw;
 }
 
 .describe p {
@@ -273,8 +274,12 @@ footer {
     color: white;
     font-family: Arial;
     text-align: justify;
+    font-size: 1.2vw;
+    line-height: 5vh;
   }
 
   .text_body {
     padding: 0 5vw;
+    max-width: 72vw;
+    display: inline-block;
   }

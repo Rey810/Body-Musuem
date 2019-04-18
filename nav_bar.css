@@ -48,7 +48,7 @@
 /* Add an active class to highlight the current page */
 .active {
   font-weight: 900 !important;
-  border-top: 0.3vw solid transparent !important!;
+  border-top: 0.3vw solid transparent !important;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
