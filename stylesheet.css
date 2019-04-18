@@ -7,18 +7,18 @@ html {
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(18px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(5.5vw + 10 * ((100vw - 320px) / 680));
   }
   h1 {
-    font-size: calc(45px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(11vw + 10 * ((100vw - 320px) / 680));
   }
 
   h2 {
-    font-size: calc(15vw + 10 * ((100vw - 320px) / 680));
+    font-size: calc(5.5vw + 10 * ((100vw - 320px) / 680));
   }
 
   #describe {
-    padding: 10vh 0;
+    padding: 16vh 0;
   }
 
   #h2 {
@@ -39,7 +39,7 @@ html {
   }
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 400px) {
   html {
     font-size: calc(2.8vh + 10 * ((100vw - 320px) / 680));
   }
