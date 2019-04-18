@@ -48,7 +48,7 @@ html {
   }
 
   h2 {
-    font-size: calc(5.5vw + 10 * ((100vw - 320px) / 680));
+    font-size: 6.5vw;
   }
 
   #describe {
