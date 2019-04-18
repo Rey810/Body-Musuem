@@ -38,10 +38,21 @@ html {
     font-size: 2vh;
   }
 }
+@media screen and (max-width: 420px){
+  .pic_block {
+    padding: 0 3vw 34vw 3vw!important;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .gal_name {
+    opacity: 1 !important;
+  }
+}
 
 @media screen and (min-width: 400px) {
   html {
-    font-size: calc(2.8vh + 10 * ((100vw - 320px) / 680));
+    font-size: calc(2.6vh + 10 * ((100vw - 320px) / 680));
   }
   h1 {
     font-size: calc(7vh + 10 * ((100vw - 320px) / 680));
@@ -52,7 +63,7 @@ html {
   }
 
   #describe {
-    padding: 14vh 0;
+    padding: 14.5vh 0;
   }
 
   #h2 {
@@ -75,16 +86,19 @@ html {
 
 @media screen and (min-width: 1000px) {
   html {
-    font-size:25px;
+    font-size: calc(1vw + 10 * ((100vw - 320px) / 680))
   }
   h1 {
-    font-size: calc(80px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(4vw + 10 * ((100vw - 320px) / 680));
   }
   h2 {
-    font-size: calc(25px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(1vw + 10 * ((100vw - 320px) / 680));
   }
   h3 {
     font-size: calc(10px + 10 * ((100vw - 320px) / 680));
+  }
+  #describe {
+    padding: 3.5vw 0;
   }
 }
 
