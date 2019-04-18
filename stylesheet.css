@@ -7,18 +7,52 @@ html {
 
 @media screen and (min-width: 320px) {
   html {
-    font-size: calc(20px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(18px + 10 * ((100vw - 320px) / 680));
   }
   h1 {
     font-size: calc(45px + 10 * ((100vw - 320px) / 680));
   }
 
   h2 {
-    font-size: calc(50px + 10 * ((100vw - 320px) / 680));
+    font-size: calc(15px + 10 * ((100vw - 320px) / 680));
   }
 
   #describe {
-    padding: 12vh 0;
+    padding: 10vh 0;
+  }
+
+  #h2 {
+    margin: 2vh 0;
+  }
+
+  #main_title {
+    padding-bottom: 14vh;
+    padding-top: 14vh;
+  }
+
+  #contact {
+    font-size: 2.5vh;
+  }
+
+  footer {
+    font-size: 2vh;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  html {
+    font-size: calc(2.8vh + 10 * ((100vw - 320px) / 680));
+  }
+  h1 {
+    font-size: calc(7vh + 10 * ((100vw - 320px) / 680));
+  }
+
+  h2 {
+    font-size: calc(30px + 10 * ((100vw - 320px) / 680));
+  }
+
+  #describe {
+    padding: 14vh 0;
   }
 
   #h2 {
