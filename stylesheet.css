@@ -6,6 +6,7 @@ html {
 }
 
 @media screen and (min-width: 320px) {
+  /*index.html styling*/
   html {
     font-size: calc(5.5vw + 10 * ((100vw - 320px) / 680));
   }
@@ -15,6 +16,10 @@ html {
 
   h2 {
     font-size: calc(5.5vw + 10 * ((100vw - 320px) / 680));
+  }
+
+  h3 {
+    font-size: calc(6.5vw + 10 * ((100vw - 320px) / 680));
   }
 
   #describe {
@@ -37,6 +42,18 @@ html {
   footer {
     font-size: 2vh;
   }
+
+/*learn_more.html styling*/
+  #learn_more_quote {
+    padding: 15vh;
+    margin-top: 0;
+  }
+
+  .font_adj_mob {
+    font-size: 2vh !important;
+  }
+
+
 }
 @media screen and (max-width: 420px){
   .pic_block {
@@ -63,7 +80,7 @@ html {
   }
 
   h3 {
-    font-size: calc(3vw + 10 * ((100vw - 320px) / 680));
+    font-size: calc(5vw + 10 * ((100vw - 320px) / 680));
   }
 
   #describe {
@@ -85,6 +102,12 @@ html {
 
   footer {
     font-size: 2vh;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: calc(3vw + 10 * ((100vw - 320px) / 680))
   }
 }
 
@@ -165,7 +188,6 @@ h1 span {
   display: inline-block;
   border-top: 4px solid #a77550;
   max-width: 80vw;
-  margin-top: 3vw;
 }
 
 .describe p {
@@ -226,14 +248,17 @@ h1 span {
   padding: 0 5px;
 }
 
-.gal_name {
+/*use in conjunction with :hover below.gal_name {
   opacity: 0;
 }
+*/
 
+/*Make text show on hover
 .pic_block:hover > .gal_name {
   opacity: 1;
   transition: all ease 0.8s;
 }
+*/
 
 footer {
   margin-top: 10vh;
@@ -273,8 +298,7 @@ footer {
   .text_body p {
     color: white;
     font-family: Arial;
-    text-align: justify;
-    font-size: 1.2vw;
+    text-align:justify;
     line-height: 5vh;
   }
 
