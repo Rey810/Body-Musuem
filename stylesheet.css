@@ -132,7 +132,7 @@ html {
     padding: 4vw;
   }
   .font_adj_lrg {
-    font-size: 2.5vh    !important; 
+    font-size: 2.5vh    !important;
   }
 }
 
@@ -154,6 +154,7 @@ h1 {
 }
 
 h1 span {
+  text-transform: uppercase;
   background: rgba(0, 0, 0, 0.7);
   padding: 0 10px;
   border-radius: 15px;
@@ -210,7 +211,6 @@ h1 span {
   border: none;
   border-radius: 300px;
   font-weight: 700;
-  text-transform: uppercase;
   padding: 10px 20px;
   position: relative;
   display: inline-block;
@@ -221,6 +221,11 @@ h1 span {
 .banner {
   background-image: url("Media/header_pic.jpg");
   background-size: contain;
+  flex: 1;
+  justify-content: center;
+}
+
+.gallery_banner {
   flex: 1;
   justify-content: center;
 }
@@ -236,6 +241,7 @@ h1 span {
   flex-flow: row wrap;
   justify-content: center;
   margin-top: 5vh;
+  align-items: center;
 }
 
 .pic_block {
@@ -313,4 +319,9 @@ footer {
     padding: 0 5vw;
     max-width: 72vw;
     display: inline-block;
+  }
+
+  /*galleries.html*/
+  .gallery_question {
+    color: #a77550;
   }
