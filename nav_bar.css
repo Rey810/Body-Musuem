@@ -5,7 +5,15 @@
   }
 
   .topnav {
-    padding: 1vw;
+    padding: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .topnav {
+    padding: 0.1vw 0 2vw 1vw;
+    display: flex;
+    justify-content: space-evenly;
   }
 }
 

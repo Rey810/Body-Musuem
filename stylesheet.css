@@ -45,7 +45,7 @@ html {
 
 /*learn_more.html styling*/
   #learn_more_quote {
-    padding: 15vh;
+    padding: 15vh 0;
     margin-top: 0;
   }
 
@@ -126,6 +126,13 @@ html {
   }
   #describe {
     padding: 3.5vw 0;
+  }
+/*learn_more.html styling*/
+  #learn_more_quote {
+    padding: 4vw;
+  }
+  .font_adj_lrg {
+    font-size: 2.5vh    !important; 
   }
 }
 
