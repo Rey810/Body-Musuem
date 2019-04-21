@@ -168,6 +168,10 @@ h1 span {
   margin: 4vh 0;
 }
 
+.main_button h2 a {
+  border: 1px solid transparent;
+}
+
 .main_button h2 a:hover {
   border: 1px solid #a77550;
 }
@@ -208,7 +212,6 @@ h1 span {
   background: rgba(0, 0, 0, 0.7);
   font-family: 'Alegreya', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   color: #a77550;
-  border: none;
   border-radius: 300px;
   font-weight: 700;
   padding: 10px 20px;
@@ -368,6 +371,12 @@ footer {
   }
 
 
+  .cof_colour:hover {
+    background-color: #E1E1D6;
+    color: black;
+  }
+
+
   .com_colour:hover {
     background-color: #66FCF1;
     color: black;
@@ -380,7 +389,7 @@ footer {
   }
 
 
-  .beer_colour:hover {
+  .party_colour:hover {
     background-color: #565656;
     color: white;
   }
@@ -389,4 +398,79 @@ footer {
   .film_colour:hover {
     background-color: #D79922;
     color: black;
+  }
+
+
+  .act_com_colour {
+    background-color: #66FCF1;
+    color: black;
+  }
+  .act_com_colour:hover {
+    background-color: #66FCF1;
+    color: black;
+  }
+
+  .act_com_title_colour {
+    color: #66FCF1;
+    border-top-color: #66FCF1;
+  }
+
+
+  .act_wrk_colour {
+    background-color: #F13C20;
+    color: black;
+  }
+  .act_wrk_colour:hover {
+    background-color: #F13C20;
+    color: black;
+  }
+
+  .act_wrk_title_colour {
+    color: #F13C20;
+    border-top-color: #F13C20;
+  }
+
+
+  .act_party_colour {
+    background-color: #565656;
+    color: black;
+  }
+  .act_party_colour:hover {
+    background-color: #565656;
+    color: black;
+  }
+
+  .act_party_title_colour {
+    color: #565656;
+    border-top-color: #565656;
+  }
+
+
+  .act_film_colour {
+    background-color: #D79922;;
+    color: black;
+  }
+  .act_film_colour:hover {
+    background-color: #D79922;;
+    color: black;
+  }
+
+  .act_film_title_colour {
+    color: #D79922;;
+    border-top-color: #D79922;;
+  }
+
+
+  .act_fav_colour {
+    background-color: #004489;
+    color: black;
+  }
+  .act_fav_colour:hover {
+    background-color: #004489;
+    color: black;
+  }
+
+  .act_fav_title_colour {
+    color: #004489;
+    border-top-color: #004489;
   }
