@@ -325,3 +325,68 @@ footer {
   .gallery_question {
     color: #a77550;
   }
+
+.gallery_symbols {
+    margin: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  .fa {
+    color: #a77550;
+  }
+
+  .symbol {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+  }
+
+  .symbol:hover {
+    border: 2px solid transparent;
+    color: white;
+  }
+
+  .fav_colour:hover {
+    background-color: #004489;
+  }
+
+
+  .act_cof_colour {
+    background-color: #E1E1D6;
+    color: black;
+  }
+  .act_cof_colour:hover {
+    background-color: #E1E1D6;
+    color: black;
+  }
+
+  .act_cof_title_colour {
+    color: #E1E1D6;
+    border-top-color: #E1E1D6;
+  }
+
+
+  .com_colour:hover {
+    background-color: #66FCF1;
+    color: black;
+  }
+
+
+  .hrt_colour:hover {
+    background-color: #F13C20;
+    color: black;
+  }
+
+
+  .beer_colour:hover {
+    background-color: #565656;
+    color: white;
+  }
+
+
+  .film_colour:hover {
+    background-color: #D79922;
+    color: black;
+  }
