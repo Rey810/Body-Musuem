@@ -474,3 +474,8 @@ footer {
     color: #004489;
     border-top-color: #004489;
   }
+
+  /*footer icons*/
+  .white_icon {
+    color: white;
+  }
