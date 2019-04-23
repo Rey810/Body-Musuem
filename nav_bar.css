@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 1000px) {
   .topnav {
-    padding: 0.1vw 0 2vw 1vw;
+    padding: 0.1vw 0 15vw 1vw;
     display: flex;
     justify-content: space-evenly;
   }
@@ -50,25 +50,31 @@
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #a77550;
+  color: black;
   text-align: center;
   margin: 1vw 1vw;
   text-decoration: none;
   font-size: 1.5vw;
-  border-top: 0.3vw solid transparent;
   padding: 0.5vw 0;
+}
+
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  border-top: 0.3vw solid #a77550;
-  border-radius: 0.4vw;
+  font-weight: 900;
 }
 
 /* Add an active class to highlight the current page */
 .active {
   font-weight: 900 !important;
-  border-top: 0.3vw solid transparent !important;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
