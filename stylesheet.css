@@ -129,7 +129,7 @@ html {
   }
 /*learn_more.html styling*/
   #learn_more_quote {
-    padding: 4vw;
+    padding: 3vw;
   }
   .font_adj_lrg {
     font-size: 2.5vh    !important;
@@ -510,6 +510,7 @@ footer {
   .fav_image {
     background-image: url("Media/header_fav.jpg");
     background-size: 100vw;
+    background-position: 0 -27vh;
   }
 
 
@@ -517,16 +518,30 @@ footer {
   .perf_image {
     background-image: url("Media/header_perform.jpg");
     background-size: 100vw;
+    background-position: 0 -3vh;
   }
+
+.centre {
+  text-align: center    !important;
+}
+
+#underline {
+  text-decoration: underline;
+}
 
 /*learn_more.html bg image*/
 .learn_image {
   background-image: url("Media/header_about.jpg");
   background-size: 100vw;
+  background-position: 0vw 57vh;
 }
   .top_title {
     color: white      !important;
     font-weight: 900  !important;
+  }
+
+  .stretched_bg {
+    padding-bottom: 4vw;
   }
 
 

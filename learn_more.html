@@ -3,6 +3,7 @@
 
 
 <head>
+  <title>Body Museum</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset='utf-8'>
   <link href='stylesheet.css' rel="stylesheet">
@@ -10,27 +11,28 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
+  <link href='media/icon_small.jpg' rel= 'shortcut icon'>
 </head>
 
 
 <body>
 
 
-  <section class = 'learn_image gallery_banner'>
+  <section class = 'stretched_bg learn_image gallery_banner'>
     <div class="topnav" id="myTopnav">
       <a href="index.html" title='Home' >Home</a>
       <a href="gallery_fav.html" title='Galleries'>Galleries</a>
       <a href="index.html" title='Body Museum' class='top_title'>Body Museum</a>
-      <a href="performance.html" title='Performance' class='active'>Performance</a>
-      <a href="learn_more.html"title='Learn More'>Learn More</a>
+      <a href="performance.html" title='Performance' >Performance</a>
+      <a href="learn_more.html" class='active' title='Learn More'>Learn More</a>
       <a href="javascript:void(0);"class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
     </div>
   </section>
 
-  <section class= 'main_galleries>
+  <section class= 'main_galleries'>
     <div class= 'describe' id='learn_more_quote'>
       <p>"Bodies in our time have become sites of display".
             </p>
