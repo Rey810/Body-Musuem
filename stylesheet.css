@@ -151,6 +151,82 @@ html {
   .text_body {
     max-width: 50vw;
   }
+  .fav_text_body_es{
+    max-width: 28vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_em{
+    max-width: 26vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_isa{
+    max-width: 25vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_jia{
+    max-width: 35vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_sam{
+    max-width: 39vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+
+  .fav_text_body_kat{
+    max-width: 22vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+
+  .fav_text_body_jo{
+    max-width: 39vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_kons{
+    max-width: 39vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_pam{
+    max-width: 39vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_ning{
+    max-width: 27vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_rey{
+    max-width: 27vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_pd{
+    max-width: 23vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_steve{
+    max-width: 28vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_text_body_val{
+    max-width: 25vw   !important;
+    margin: 5vw 0     !important;
+  }
+
+  .fav_para {
+    margin: 0 auto    !important;
+    font-style: italic  !important;
+  }
 }
 
 body {
@@ -267,7 +343,7 @@ h1 span {
 }
 
 .pic_block {
-  padding: 0 3vw 3vw 3vw;
+  padding: 1.5vw 3vw 1.5vw 3vw;
   position: relative;
   margin: 10px;
 }
@@ -495,6 +571,14 @@ footer {
     border-top-color: #E4599A;
   }
 
+  .favpic_describe {
+    vertical-align: top;
+    display: inline-block;
+  }
+
+  .pic_block {
+    display: inline-block;
+  }
 
 /*top header for galleries*/
 
@@ -532,7 +616,7 @@ footer {
 
 /*performance.html bg image*/
   .perf_image {
-    background-image: url("Media/header_perform.jpg");
+    background-image: url("Media/header_perform_new.jpg");
     background-size: 100vw;
     background-position: 0 -3vh;
   }
@@ -543,6 +627,12 @@ footer {
 
 #underline {
   text-decoration: underline;
+}
+
+.faded_bg {
+  background-image: linear-gradient(rgb(250,0,250,0.1), rgb(80,141,209, 0.8));
+  padding: 2vw 5vw 5vw 5vw;
+  border-radius: 10px;
 }
 
 /*learn_more.html bg image*/
