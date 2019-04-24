@@ -65,6 +65,19 @@ html {
   .gal_name {
     opacity: 1 !important;
   }
+
+  .gallery_banner {
+    position: relative    !important;
+    padding-bottom: 14vh  !important;
+  }
+
+  .gallery_symbols {
+
+    position: absolute   !important;
+    bottom: 0             !important;
+    display: flex         !important;
+    justify-content: space-evenly !important;
+  }
 }
 
 @media screen and (min-width: 400px) {
@@ -133,6 +146,10 @@ html {
   }
   .font_adj_lrg {
     font-size: 2.5vh    !important;
+  }
+
+  .text_body {
+    max-width: 50vw;
   }
 }
 
@@ -322,7 +339,6 @@ footer {
 
   .text_body {
     padding: 0 5vw;
-    max-width: 72vw;
     display: inline-block;
   }
 
@@ -387,7 +403,7 @@ footer {
   }
 
 
-  .hrt_colour:hover {
+  .work_colour:hover {
     background-color: #F13C20;
     color: black;
   }
