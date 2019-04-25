@@ -23,7 +23,7 @@ html {
   }
 
   #describe {
-    padding: 16vh 0;
+    padding: 16vh 0 10vh 0;
   }
 
   #h2 {
@@ -45,7 +45,7 @@ html {
 
 /*learn_more.html styling*/
   #learn_more_quote {
-    padding: 15vh 0;
+    min-height:2vh;
     margin-top: 0;
   }
 
@@ -57,7 +57,18 @@ html {
 }
 @media screen and (max-width: 420px){
   .pic_block {
-    padding: 0 3vw 34vw 3vw!important;
+    padding: 0 3vw 0vw 3vw!important;
+    margin: 25vw 0 15vw 0 !important;
+  }
+
+  .text_body {
+    padding: 0 0 10vw 0 !important;
+    margin: 0 10vw 0 10vw !important;
+    border-bottom: 1px solid #E4599A;
+  }
+
+  #no_border {
+    border: none;
   }
 }
 
@@ -67,17 +78,71 @@ html {
   }
 
   .gallery_banner {
-    position: relative    !important;
-    padding-bottom: 14vh  !important;
+    position: relative;
+    min-height: 35vh;
+  }
+
+  .learn_image {
+    background-size: 225vw    !important;
+    background-position: -26vw 79vh   !important;
   }
 
   .gallery_symbols {
-
-    position: absolute   !important;
+    width: 100%;
+    position: absolute;
     bottom: 0             !important;
-    display: flex         !important;
-    justify-content: space-evenly !important;
   }
+
+  .top_icon {
+    color: black  !important;
+  }
+
+  .top_home {
+    font-weight: 900;
+  }
+
+
+
+
+
+  /*top header for galleries*/
+
+    .cof_image {
+      background-size: 130vw    !important;
+      background-position: -8vh -38vh    !important;
+    }
+
+    .com_image {
+      background-size: 160vw    !important;
+      background-position: -104vh -39vh    !important;
+    }
+
+    .work_image {
+      background-size: 180vw    !important;
+      background-position: -20vh -41vh    !important;
+    }
+
+    .party_image {
+      background-size: 200vw    !important;
+      background-position: -139vh -43vh    !important;
+    }
+
+    .movie_image {
+      background-size: 160vw    !important;
+      background-position: -2vh -39vh    !important;
+    }
+
+    .fav_image {
+      background-size: 150vw    !important;
+      background-position: 0 -75vh    !important;
+    }
+
+
+  /*performance.html bg image*/
+    .perf_image {
+      background-size: 100vw    !important;
+      background-position: 0 -3vh   !important;
+    }
 }
 
 @media screen and (min-width: 400px) {
@@ -254,6 +319,8 @@ h1 span {
   font-family: Alegreya, serif;
 }
 
+
+
 .main_button {
   padding: 1vh 0;
 }
@@ -410,7 +477,7 @@ footer {
     color: white;
     font-family: Arial;
     text-align:justify;
-    line-height: 5vh;
+    line-height: 4vh;
   }
 
   .text_body {
@@ -509,6 +576,7 @@ footer {
   .act_com_title_colour {
     color: #66FCF1;
     border-top-color: #66FCF1;
+    border-bottom-color: #66FCF1;
   }
 
 
@@ -524,6 +592,7 @@ footer {
   .act_wrk_title_colour {
     color: #F13C20;
     border-top-color: #F13C20;
+    border-bottom-color: #F13C20;
   }
 
 
@@ -539,6 +608,7 @@ footer {
   .act_party_title_colour {
     color: #565656;
     border-top-color: #565656;
+    border-bottom-color: #565656;
   }
 
 
@@ -553,7 +623,8 @@ footer {
 
   .act_film_title_colour {
     color: #D79922;;
-    border-top-color: #D79922;;
+    border-top-color: #D79922;
+    border-bottom-color: #D79922;
   }
 
 
@@ -569,7 +640,38 @@ footer {
   .act_fav_title_colour {
     color: #E4599A;
     border-top-color: #E4599A;
+    border-bottom-color: #E4599A;
   }
+
+
+
+
+
+  /*colouring of border following main quote*/
+  .bottom_border_colour_f {
+    border-bottom: 1px solid  #E4599A;
+  }
+
+  .bottom_border_colour_c {
+    border-bottom: 1px solid  #004489;
+  }
+
+  .bottom_border_colour_cm {
+    border-bottom: 1px solid  #66FCF1;
+  }
+
+  .bottom_border_colour_w {
+    border-bottom: 1px solid  #F13C20;
+  }
+
+  .bottom_border_colour_p {
+    border-bottom: 1px solid  #565656;
+  }
+
+  .bottom_border_colour_m {
+    border-bottom: 1px solid  #D79922;
+  }
+
 
   .favpic_describe {
     vertical-align: top;
@@ -585,26 +687,31 @@ footer {
   .cof_image {
     background-image: url("Media/header_coffee_small.jpg");
     background-size: 100vw;
+    background-position: 0 -3vh;
   }
 
   .com_image {
     background-image: url("Media/header_commute.jpg");
     background-size: 100vw;
+    background-position: 0 -27vh;
   }
 
   .work_image {
     background-image: url("Media/header_work.jpg");
     background-size: 100vw;
+    background-position: 0 -27vh;
   }
 
   .party_image {
     background-image: url("Media/header_party.jpg");
     background-size: 100vw;
+    background-position: 0 -5vh;
   }
 
   .movie_image {
     background-image: url("Media/header_movie.jpg");
     background-size: 100vw;
+    background-position: 0 -3vh;
   }
 
   .fav_image {
@@ -641,10 +748,6 @@ footer {
   background-size: 100vw;
   background-position: 0vw 57vh;
 }
-  .top_title {
-    color: white      !important;
-    font-weight: 900  !important;
-  }
 
   .stretched_bg {
     padding-bottom: 4vw;

@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
-  <link href='Media/icon_small.jpg' rel= 'shortcut icon'>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=1234"/>
+  <link href='Media/icon_small.png' rel= 'shortcut icon'>
 </head>
 
 
@@ -33,13 +33,15 @@
 
       <section class = 'fav_image gallery_banner'>
         <div class="topnav" id="myTopnav">
-          <a href="index.html" title='Home' >Home</a>
+          <a href="index.html" title='Home' class='top_home'>Home</a>
           <a href="gallery_fav.html" title='Galleries' class="active">Galleries</a>
-          <a href="index.html" title='Body Museum' class='top_title'>Body Museum</a>
+
+          <div class='top_title'>Body Museum</div>
+
           <a href="performance.html" title='Performance'>Performance</a>
           <a href="learn_more.html"title='Learn More'>Learn More</a>
           <a href="javascript:void(0);"class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
+            <i class="top_icon fa fa-bars"></i>
           </a>
         </div>
         <div class = "gallery_symbols">
@@ -59,7 +61,7 @@
               Favourite
             </h2>
         </div>
-        <div class = 'act_fav_title_colour describe' id="describe">
+        <div class = 'act_fav_title_colour describe bottom_border_colour_f' id="describe">
               <p>What is your most preferred way of sitting?</p>
         </div>
         <div class = 'gallery'>
@@ -126,7 +128,7 @@
                     <div class = 'pic_block' >
                       <img src= 'Media/fav/sam_fav.JPG' alt='Sam'
                         srcset= "Media/fav/sam_fav.JPG 640w"
-                        sizes= "(max-width: 480px) 20vw, (max-width: 900px) 20vw,
+                        sizes= "(max-width: 480px) 18vw, (max-width: 900px) 18vw,
                               (min-width: 1000px) 8vw,
                               254px,">
                             </div>
@@ -156,7 +158,7 @@
                     <div class = 'pic_block' >
                       <img src= 'Media/fav/jo_fav.jpg' alt='Jo'
                         srcset= "Media/fav/jo_fav.jpg 640w"
-                        sizes= "(max-width: 480px) 40vw, (max-width: 900px) 40vw,
+                        sizes= "(max-width: 480px) 33vw, (max-width: 900px) 33vw,
                               (min-width: 1000px) 16vw,
                               254px,">
                           </div>
@@ -201,7 +203,7 @@
                     <div class = 'pic_block' >
                       <img src= 'Media/fav/ning_fav.jpg' alt='Ning'
                         srcset= "Media/fav/ning_fav.jpg 640w"
-                        sizes= "(max-width: 480px) 18vw, (max-width: 900px) 18vw,
+                        sizes= "(max-width: 480px) 80vw, (max-width: 900px) 80vw,
                               (min-width: 1000px) 40vw,
                               254px,">
                           </div>
@@ -215,7 +217,7 @@
                           <div class = 'pic_block' >
                             <img src= 'Media/fav/rey_fav.jpg' alt='Rey'
                               srcset= "Media/fav/rey_fav_2.jpg 640w"
-                              sizes= "(max-width: 480px) 18vw, (max-width: 900px) 18vw,
+                              sizes= "(max-width: 480px) 16vw, (max-width: 900px) 16vw,
                                     (min-width: 1000px) 8vw,
                                     254px,">
                                 </div>
@@ -260,11 +262,11 @@
                     <div class = 'pic_block' >
                       <img src= 'Media/fav/val_fav.jpg' alt='Steve'
                         srcset= "Media/fav/val_fav.jpg 640w"
-                        sizes= "(max-width: 480px) 12vw, (max-width: 900px) 12vw,
+                        sizes= "(max-width: 480px) 18vw, (max-width: 900px) 18vw,
                               (min-width: 1000px) 10vw,
                               254px,">
                           </div>
-                          <div class='fav_text_body_val text_body'>
+                          <div class='fav_text_body_val text_body' id='no_border'>
                             <p class='fav_para font_adj_mob font_adj_lrg'>
                               "I also like to sometimes put my chin on my knee while sitting like this. It makes me feel small and safe. I think this pose comes from my dance childhood when I was forced to stretch my hips open in a butterfly  position. This served as an escape position. I can sit like this on any type of surface - chair, floor, sofa. I’d sit like this in class, but I get into trouble for sitting like this in front of my mom in the kitchen. It feels like most of my friends sit like that while chilling as well". - Val
                             </p>

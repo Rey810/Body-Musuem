@@ -11,6 +11,7 @@
 
 @media screen and (min-width: 1000px) {
   .topnav {
+    align-items: center;
     padding: 0.1vw 0 15vw 1vw;
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +25,16 @@
   .topnav a.icon {
     float: right;
     display: block;
+  }
+
+  .top_icon fa {
+    color: black  !important;
+  }
+
+  .top_title {
+    position: absolute;
+    top: 5vw;
+    right: 33vw;
   }
 }
 
@@ -42,10 +53,22 @@
   }
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  position: relative;
+/*Styling for banner on mobile*/
+
+
+.top_title {
+  display: inline-block;
+  color: white      !important;
+  font-weight: 900  !important;
+  width
 }
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
 
 /* Style the links inside the navigation bar */
 .topnav a {
