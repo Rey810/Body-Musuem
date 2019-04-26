@@ -1,5 +1,5 @@
   $(window).on("scroll", function() {
-      if ($(window).scrollTop() > 185) {
+      if ($(window).scrollTop() > 210) {
         $(".gallery_symbols").addClass("fix-search");
       }
       else {
