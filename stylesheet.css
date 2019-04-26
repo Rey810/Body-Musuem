@@ -70,6 +70,50 @@ html {
   #no_border {
     border: none;
   }
+
+  .learn_image {
+    background-size: 120vh    !important;
+    background-position: -13vh 0vh   !important;
+  }
+
+  /*top header for galleries*/
+
+    .cof_image {
+      background-size: 162vw    !important;
+      background-position: -17vh -0vh    !important;
+    }
+
+    .com_image {
+      background-size: 180vw    !important;
+      background-position: 70vh -39vh    !important;
+    }
+
+    .work_image {
+      background-size: 180vw    !important;
+      background-position: 70vh -41vh    !important;
+    }
+
+    .party_image {
+      background-size: 200vw    !important;
+      background-position: 70vh 0vh    !important;
+    }
+
+    .movie_image {
+      background-size: 180vw    !important;
+      background-position: 0vh 0vh    !important;
+    }
+
+    .fav_image {
+      background-size: 185vw    !important;
+      background-position: 0 0vh    !important;
+    }
+
+
+  /*performance.html bg image*/
+    .perf_image {
+      background-size: 200vw    !important;
+      background-position: 87vh 0vh   !important;
+    }
 }
 
 @media screen and (max-width: 800px){
@@ -80,11 +124,6 @@ html {
   .gallery_banner {
     position: relative;
     min-height: 35vh;
-  }
-
-  .learn_image {
-    background-size: 225vw    !important;
-    background-position: -26vw 79vh   !important;
   }
 
   .gallery_symbols {
@@ -101,40 +140,49 @@ html {
     font-weight: 900;
   }
 
+  .pic_block {
+    padding: 0 3vw 0vw 3vw!important;
+    margin: 25vw 0 15vw 0 !important;
+  }
 
+  .text_body {
+    padding: 0 0 10vw 0 !important;
+    margin: 0 10vw 0 10vw !important;
+    border-bottom: 1px solid #E4599A;
+  }
+}
 
-
-
+@media screen and (min-width: 800px){
   /*top header for galleries*/
 
     .cof_image {
-      background-size: 130vw    !important;
-      background-position: -8vh -38vh    !important;
+      background-size: 130vw;
+      background-position: -8vh -38vh;
     }
 
     .com_image {
-      background-size: 160vw    !important;
-      background-position: -104vh -39vh    !important;
+      background-size: 160vw;
+      background-position: -104vh -39vh;
     }
 
     .work_image {
-      background-size: 180vw    !important;
-      background-position: -20vh -41vh    !important;
+      background-size: 180vw;
+      background-position: -20vh -41vh;
     }
 
     .party_image {
-      background-size: 200vw    !important;
-      background-position: -139vh -43vh    !important;
+      background-size: 200vw;
+      background-position: -139vh -43vh;
     }
 
     .movie_image {
-      background-size: 160vw    !important;
-      background-position: -2vh -39vh    !important;
+      background-size: 160vw;
+      background-position: -2vh -39vh;
     }
 
     .fav_image {
-      background-size: 150vw    !important;
-      background-position: 0 -75vh    !important;
+      background-size: 150vw;
+      background-position: 0 -75vh;
     }
 
 
@@ -143,6 +191,13 @@ html {
       background-size: 100vw    !important;
       background-position: 0 -3vh   !important;
     }
+
+/*learn_more.html bg image*/
+  .learn_image {
+        background-size: 225vw    !important;
+        background-position: -26vw 79vh   !important;
+      }
+
 }
 
 @media screen and (min-width: 400px) {
