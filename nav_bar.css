@@ -42,7 +42,7 @@
 @media screen and (max-width: 800px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
-    position: fixed;
+    position: absolute;
     right: 5vw;
     top: 5vw;
   }
@@ -115,11 +115,4 @@ a::after {
     width: 100%;
     position: fixed;
   }
-
-  .gallery_symbols {
-    ...
-    .fix-search & {
-      position: fixed;
-      top: 10px;
-    }
   }

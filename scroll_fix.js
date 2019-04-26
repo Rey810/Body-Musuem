@@ -1,11 +1,13 @@
-// const wrap = document.querySelector('#wrap');
-//
-// wrap.addEventListener('scroll', function() {
-//   console.log('scroll');
-//   if (wrap.scrollTop > 147) {
-//     wrap.ClassList.add("fix-search");
-//     console.log('scroll-top = 147')
-//   } else {
-//     document.getElementById('gallery_symbols').ClassList.remove("fix-search");
-//   }
-// });
+const sym = $(".gallery_symbols");
+
+  $(window).on("scroll", function() {
+    console.log('Scroll event fired');
+    console.log($(window).scrollTop());
+      if ($(window).scrollTop() > 185) {
+        console.log('wrap scroll event');
+        $(".gallery_symbols").addClass("fix-search");
+      }
+      else {
+        $(".gallery_symbols").removeClass("fix-search");
+      }
+});
