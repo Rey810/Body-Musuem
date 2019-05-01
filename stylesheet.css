@@ -540,7 +540,7 @@ footer {
   .text_body p {
     color: white;
     font-family: Arial;
-    text-align:justify;
+    text-align: left;
     line-height: 4vh;
   }
 
