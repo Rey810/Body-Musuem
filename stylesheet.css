@@ -63,7 +63,7 @@ html {
 
   .text_body {
     padding: 0 0 10vw 0 !important;
-    margin: 0 10vw 0 10vw !important;
+    margin: 0 5vw 0 5vw !important;
     border-bottom: 1px solid #E4599A;
   }
 
@@ -156,8 +156,13 @@ html {
 
   .text_body {
     padding: 0 0 10vw 0 !important;
-    margin: 0 10vw 0 10vw !important;
+    margin: 0 5vw 0 5vw !important;
     border-bottom: 1px solid #E4599A;
+  }
+
+  .text_body p {
+    line-height: 3vh  !important;
+    word-spacing: 0.1em !important;
   }
 }
 
