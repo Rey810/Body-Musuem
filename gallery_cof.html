@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset='utf-8'>
   <meta name="theme-color" content="#004489">
-  <link href='stylesheet.css' rel="stylesheet">
-  <link href='nav_bar.css' rel='stylesheet'>
+  <link href='style_2.css' rel="stylesheet">
+  <link href='nav_bar_2.css' rel='stylesheet'>
+  <link rel="stylesheet" href="media_queries.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
@@ -20,8 +21,8 @@
   <script type="text/javascript" src="scroll_fix.js" async></script>
 
 
-  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
-  <script async src="//static.getclicky.com/js"></script>
+  <!-- <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
+  <script async src="//static.getclicky.com/js"></script> -->
 
 </head>
 
@@ -34,52 +35,61 @@
         <div class='galleries-title'>Galleries Title
         </div>
         <div class='galleries-container'>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>1</div></a>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>2</div></a>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>3</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>1</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>2</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>3</div></a>
           <a href='#'><div class = 'gallery-block' id = 'gallery-block'>4</div></a>
           <a href='#'><div class = 'gallery-block' id = 'gallery-block'>5</div></a>
         </div>
       </div> -->
 
-      <section class = 'cof_image gallery_banner'>
-        <div class="topnav" id="myTopnav">
-          <a href="index.html" title='Home' class='top_home'>Home</a>
-          <a href="gallery_fav.html" title='Galleries' class="active">Galleries</a>
+  <div class='cof_image gallery_banner' id='wrap'>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" title='Home' class='top_home' id='fav_image'>BODY<br>MUSEUM</a>
+      <a href="gallery_fav.html" title='Galleries' id="active">Galleries</a>
+      <a href="performance.html" title='Performance'>Performance</a>
+      <a href="learn_more.html" title='Learn More'>Learn More</a>
+      <a href="javascript:void(0);" class="icon" id='menu_icon_parent' onclick="myFunction()">
+        <i id='menu_icon' class="top_icon fa fa-bars"></i>
+      </a>
+    </div>
 
-          <div class='top_title'>Body Museum</div>
+    <div class='gallery_title_area'>
+      <div class='gallery_title_text'>
+        <h2 class='cof_title' id="h2">
+          COFFEE SHOP</h2>
+        <p>How do you sit during a coffe break?</p>
+      </div>
+    </div>
+    <div class='arrow_icon'><i style='cursor: pointer;' class="fa fa-angle-double-down" id='angle_down'></i></div>
+  </div>
 
-          <a href="performance.html" title='Performance'>Performance</a>
-          <a href="learn_more.html"title='Learn More'>Learn More</a>
-          <a href="javascript:void(0);"class="icon" onclick="myFunction()">
-            <i class="top_icon fa fa-bars"></i>
-          </a>
-        </div>
-        <div class = "gallery_symbols">
-          <a href = 'gallery_fav.html'><i class="symbol fa fa-heart"></i></a>
-          <a href = 'gallery_cof.html'><i class="act_cof_colour cof_colour symbol fa fa-coffee"></i></a>
-          <a href = 'gallery_com.html'><i class="com_colour symbol fa fa-bus"></i></a>
-          <a href = 'gallery_work.html'><i class="work_colour symbol fa fa-battery-quarter"></i></a>
-          <a href = 'gallery_party.html'><i class="party_colour symbol fa fa-beer"></i></a>
-          <a href = 'gallery_movie.html'><i class="film_colour symbol fa fa-film"></i></a>
-        </div>
-      </section>
+      <nav class="gallery_symbols" id="main_nav">
+        <ul class='symbol_list cof'>
+          <li class='logo fav_logo' id='logo' style='cursor: pointer;'>
+            <div class='img_logo_parent' style='color: white;'><img id='img_logo' src="Media/icon.png"></div>
+          </li>
+          <li class='fav_colour'><a href='gallery_fav.html'><i 
+                class="act_fav_colour symbol fa fa-heart"></i></a></li>
+          <li class='cof_colour cof_active'><a href='gallery_cof.html'><i id="act_colour"
+                class="symbol fa fa-coffee"></i></a></li>
+          <li class='com_colour'><a href='gallery_com.html'><i class="symbol fa fa-bus"></i></a></li>
+          <li class='work_colour'><a href='gallery_work.html'><i class="symbol fa fa-battery-quarter"></i></a></li>
+          <li class='party_colour'><a href='gallery_party.html'><i class="symbol fa fa-beer"></i></a>
+          </li>
+          <li class='film_colour'><a href='gallery_movie.html'><i class="symbol fa fa-film"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+     <section class='main_galleries'>
+       <h2 id="h2">
+         Coffee Shop Gallery
+       </h2>
 
 
-      <section class = 'main_galleries'>
-        <div class = 'main_button gallery_question'>
-            <h2 class='act_cof_title_colour' id="h2">
-              Coffee Shop
-            </h2>
-        </div>
-        <div class = 'act_cof_title_colour describe bottom_border_colour_c' id="describe">
-              <p>How do you sit while having coffee with a friend?</p>
-        </div>
-        <div class = 'gallery'>
-
-
-
-                  <a href= '#'>
+       <div class='gallery'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/es_1.jpg' alt='Es'
                         srcset= "media/cof_shop/es_1.jpg 640w"
@@ -87,10 +97,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                             </div>
-                              </a>
+                          </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/em_1.jpg' alt='Em'
                         srcset= "media/cof_shop/em_1.jpg 640w"
@@ -98,9 +108,9 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/cof_shop/rey_1.jpg' alt='Rey'
                         srcset= "Media/cof_shop/rey_1.jpg 640w"
@@ -108,10 +118,10 @@
                               (min-width: 1000px) 6vw,
                               254px,">
                             </div>
-                              </a>
+                          </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/isa_1.jpg' alt='Isa'
                         srcset= "media/cof_shop/isa_1.jpg 640w"
@@ -119,10 +129,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/jialu_1.jpg' alt='Jialu'
                           srcset= "media/cof_shop/jialu_1.jpg 640w"
@@ -130,10 +140,10 @@
                                 (min-width: 1000px) 40vw,
                                 254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/sam_12.jpg' alt='Sam'
                         srcset= "media/cof_shop/sam_12.jpg 640w"
@@ -141,10 +151,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                             </div>
-                              </a>
+                          </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/jo_1.jpg' alt='Jo'
                         srcset= "media/cof_shop/jo_1.jpg 640w"
@@ -152,10 +162,10 @@
                               (min-width: 1000px) 30vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/katia_1.jpg' alt='Katia'
                         srcset= "media/cof_shop/katia_1.jpg 640w"
@@ -163,10 +173,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/kons_1.jpg' alt='Kons'
                           srcset= "media/cof_shop/kons_1.jpg 640w"
@@ -174,10 +184,10 @@
                                 (min-width: 1000px) 8vw,
                                 254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/ning_1.jpg' alt='Ning'
                         srcset= "media/cof_shop/ning_1.jpg 640w"
@@ -185,10 +195,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/pam_1.jpg' alt='Pam'
                         srcset= "media/cof_shop/pam_1.jpg 640w"
@@ -196,10 +206,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                       <div class = 'pic_block' >
                         <img src= 'media/cof_shop/pd_1.jpg' alt='PD'
                           srcset= "media/cof_shop/pd_1.jpg 640w"
@@ -207,9 +217,9 @@
                                 (min-width: 1000px) 22vw,
                                 254px,">
                             </div>
-                              </a>
+                          </div>
 
-
+                    <div class='pic_text_container'>
                       <div class = 'pic_block' >
                         <img src= 'Media/fav/rey_fav.jpg' alt='Rey'
                           srcset= "Media/fav/rey_fav_2.jpg 640w"
@@ -217,9 +227,10 @@
                                 (min-width: 1000px) 8vw,
                                 254px,">
                             </div>
+                          </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/sam_11.jpg' alt='Sam'
                         srcset= "media/cof_shop/sam_11.jpg 640w"
@@ -227,11 +238,11 @@
                               (min-width: 1000px) 9vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'media/cof_shop/steve_1.jpg' alt='Steve'
                         srcset= "media/cof_shop/steve_1.jpg 640w"
@@ -239,10 +250,10 @@
                               (min-width: 1000px) 35vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' id='no_border'>
                       <img src= 'media/cof_shop/val_1.jpg' alt='Steve'
                         srcset= "media/cof_shop/val_1.jpg 640w"
@@ -250,7 +261,7 @@
                               (min-width: 1000px) 6vw,
                               254px,">
                           </div>
-                            </a>
+                        </div>
 
           </div>
       </section>

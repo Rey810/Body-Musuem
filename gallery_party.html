@@ -5,22 +5,23 @@
   <title>Body Museum</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset='utf-8'>
-  <meta name="theme-color" content="#565656">
-  <link href='stylesheet.css' rel="stylesheet">
-  <link href='nav_bar.css' rel='stylesheet'>
+  <meta name="theme-color" content="#66FCF1">
+  <link href='style_2.css' rel="stylesheet">
+  <link href='nav_bar_2.css' rel='stylesheet'>
+  <link rel="stylesheet" href="media_queries.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
-  <link rel="icon" sizes="192x192" href="Media/icon.png">
+  <link rel="icon" href="Media/BM.ico">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
   <script type="text/javascript" src="nav_bar.js" async></script>
   <script type="text/javascript" src="scroll_fix.js" async></script>
 
-  <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
-  <script async src="//static.getclicky.com/js"></script>
+  <!-- <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
+  <script async src="//static.getclicky.com/js"></script> -->
 
 </head>
 
@@ -33,52 +34,66 @@
         <div class='galleries-title'>Galleries Title
         </div>
         <div class='galleries-container'>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>1</div></a>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>2</div></a>
-          <a href= '#'><div class = 'gallery-block' id = 'gallery-block'>3</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>1</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>2</div></a>
+          <div class='pic_text_container'><div class = 'gallery-block' id = 'gallery-block'>3</div></a>
           <a href='#'><div class = 'gallery-block' id = 'gallery-block'>4</div></a>
           <a href='#'><div class = 'gallery-block' id = 'gallery-block'>5</div></a>
         </div>
       </div> -->
 
-      <section class = 'party_image gallery_banner'>
-        <div class="topnav" id="myTopnav">
-          <a href="index.html" title='Home' class='top_home'>Home</a>
-          <a href="gallery_fav.html" title='Galleries' class="active">Galleries</a>
-
-          <div class='top_title'>Body Museum</div>
-
+      <div class='party_image gallery_banner' id='wrap'>
+        <div class="topnav" id="myTopnav</div>">
+          <a href="index.html" title='Ho</div>me' class='top_home' id='fav_image'>BODY<br>MUSEUM</a>
+          <a href="gallery_fav.html" title='Galleries' id="active">Galleries</a>
           <a href="performance.html" title='Performance'>Performance</a>
-          <a href="learn_more.html"title='Learn More'>Learn More</a>
-          <a href="javascript:void(0);"class="icon" onclick="myFunction()">
-            <i class="top_icon fa fa-bars"></i>
+          <a href="learn_more.html" title='Learn More'>Learn More</a>
+          <a href="javascript:void(0);" class="icon" id='menu_icon_parent' onclick="myFunction()">
+            <i id='menu_icon' class="top_icon fa fa-bars"></i>
           </a>
         </div>
-        <div class = "gallery_symbols">
-          <a href = 'gallery_fav.html'><i class="fav_colour symbol fa fa-heart"></i></a>
-          <a href = 'gallery_cof.html'><i class="cof_colour symbol fa fa-coffee"></i></a>
-          <a href = 'gallery_com.html'><i class="com_colour symbol fa fa-bus"></i></a>
-          <a href = 'gallery_work.html'><i class="work_colour symbol fa fa-battery-quarter"></i></a>
-          <a href = 'gallery_party.html'><i class="act_party_colour symbol fa fa-beer"></i></a>
-          <a href = 'gallery_movie.html'><i class="film_colour symbol fa fa-film"></i></a>
-        </div>
-      </section>
 
+        <div class='gallery_title_area'>
+          <div class='gallery_title_text'>
+            <h2 class='party_title' id="h2">
+              PARTY</h2>
+            <p>How do you sit with friends at a party?</p>
+          </div>
+        </div>
+        <div class='arrow_icon'><i style='cursor: pointer;' class="fa fa-angle-double-down" id='angle_down'></i>
+        </div>
+      </div>
 
-      <section class = 'main_galleries'>
-        <div class = 'main_button gallery_question'>
-            <h2 class='act_party_title_colour' id="h2">
-              House Party
-            </h2>
-        </div>
-        <div class = 'act_party_title_colour describe bottom_border_colour_p' id="describe">
-              <p>How do you sit while hanging out with friends at a party?</p>
-        </div>
+      <nav class="gallery_symbols" id="main_nav">
+        <ul class='symbol_list party'>
+          <li class='logo fav_logo' id='logo' style='cursor: pointer;'>
+            <div class='img_logo_parent' style='color: white;'><img id='img_logo' src="Media/icon.png"></div>
+          </li>
+          <li class='fav_colour'><a href='gallery_fav.html'><i class="act_fav_colour symbol fa fa-heart"></i></a></li>
+          <li class='cof_colour'><a href='gallery_cof.html'><i class=" symbol fa fa-coffee"></i></a></li>
+          <li class='com_colour'><a href='gallery_com.html'><i
+                class="symbol fa fa-bus"></i></a></li>
+          <li class='work_colour'><a href='gallery_work.html'><i
+                class="symbol fa fa-battery-quarter"></i></a>
+          </li>
+          <li class='party_colour party_active'><a href='gallery_party.html'><i id="act_colour"
+                class="symbol fa fa-beer"></i></a>
+          </li>
+          <li class='film_colour'><a href='gallery_movie.html'><i class="symbol fa fa-film"></i></a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class='main_galleries'>
+        <h2 id="h2">
+          Party Gallery
+        </h2>
+
         <div class = 'gallery'>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/es_4.JPG' alt='Es'
                         srcset= "Media/party/es_4.JPG 640w"
@@ -86,11 +101,11 @@
                               (min-width: 1000px) 10vw,
                               254px,">
                             </div>
-                              </a>
+                              </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/em_4.JPG' alt='Em'
                         srcset= "Media/party/em_4.JPG 640w"
@@ -98,11 +113,11 @@
                               (min-width: 1000px) 9vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/rey_4.jpg' alt='Rey'
                         srcset= "Media/party/rey_4.jpg 640w"
@@ -110,11 +125,11 @@
                               (min-width: 1000px) 6vw,
                               254px,">
                             </div>
-                              </a>
+                              </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/isa_4.JPG ' alt='Isa'
                         srcset= "Media/party/isa_4.JPG 640w"
@@ -122,11 +137,11 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/jia_4.jpg' alt='Jialu'
                           srcset= "Media/party/jia_4.jpg 640w"
@@ -134,11 +149,11 @@
                                 (min-width: 1000px) 50vw,
                                 254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/kons_4.JPG' alt='Kons'
                           srcset= "Media/party/kons_4.JPG 640w"
@@ -146,11 +161,11 @@
                                 (min-width: 1000px) 6vw,
                                 254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/jo_4.JPG' alt='Jo'
                         srcset= "Media/party/jo_4.JPG 640w"
@@ -158,11 +173,11 @@
                               (min-width: 1000px) 34vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/sam_4.JPG' alt='Sam'
                         srcset= "Media/party/sam_4.JPG 640w"
@@ -170,10 +185,10 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                             </div>
-                              </a>
+                              </a></div>
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/kat_4.JPG' alt='Katia'
                         srcset= "Media/party/kat_4.JPG 640w"
@@ -181,11 +196,11 @@
                               (min-width: 1000px) 9vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/ning_4.JPG' alt='Ning'
                         srcset= "Media/party/ning_4.JPG 640w"
@@ -193,11 +208,11 @@
                               (min-width: 1000px) 7vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/val_4(2).JPG' alt='Val'
                         srcset= "Media/party/val_4(2).JPG 640w"
@@ -205,11 +220,11 @@
                               (min-width: 1000px) 8vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/pam_4.JPG' alt='Pam'
                         srcset= "Media/party/pam_4.JPG 640w"
@@ -217,11 +232,11 @@
                               (min-width: 1000px) 10vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                       <div class = 'pic_block' >
                         <img src= 'Media/party/pd_4.JPG' alt='PD'
                           srcset= "Media/party/pd_4.JPG 640w"
@@ -229,11 +244,11 @@
                                 (min-width: 1000px) 22vw,
                                 254px,">
                             </div>
-                              </a>
+                              </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' >
                       <img src= 'Media/party/steve_4.JPG' alt='Steve'
                         srcset= "Media/party/steve_4.JPG 640w"
@@ -241,11 +256,11 @@
                               (min-width: 1000px) 39vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
 
 
-                  <a href= '#'>
+                  <div class='pic_text_container'>
                     <div class = 'pic_block' id='no_border'>
                       <img src= 'Media/party/val_4.JPG' alt='Val'
                         srcset= "Media/party/val_4.JPG 640w"
@@ -253,7 +268,7 @@
                               (min-width: 1000px) 9vw,
                               254px,">
                           </div>
-                            </a>
+                            </a></div>
 
           </div>
       </section>

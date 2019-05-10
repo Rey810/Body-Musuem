@@ -3,7 +3,11 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
+    y.className += " responsive";
   } else {
     x.className = "topnav";
+    y.className = "gallery_title_area";
   }
 }
+
+const y = document.querySelector('.gallery_title_area');
