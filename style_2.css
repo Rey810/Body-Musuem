@@ -21,7 +21,6 @@ body {
     display: flex;
     flex-direction: column;
     height: calc(var(--vh, 1vh) * 100);
-    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -31,42 +30,49 @@ body {
     background-color: #E4599A;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
     url(Media/fav/jo_fav.jpg);
+    background-position: center center;
 }
 
 .cof_image {
     background-color: #004489;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #004489),
-    url(Media/cof_shop/kons_1.jpg);
+    url(Media/cof_shop/kons_1.JPG);
+    background-position: center center;
 }
 
 .com_image {
     background-color: #66FCF1;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66FCF1),
         url(Media/com/pam_2.JPG);
+        background-position: bottom center;
 }
 
 .party_image {
     background-color:  #565656;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656),
         url(Media/party/jo_4.JPG);
+        background-position: center center;
 }
 
 .film_image {
     background-color: #D79922;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922),
         url(Media/movie/ning_5.JPG);
+        background-position: center center;
 }
 
 .work_image {
     background-color: #F13C20;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #F13C20),
         url(Media/wrk/pd_3.JPG);
+        background-position: center center;
 }
 
 .main_image {
     background-color: #a77550;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #a77550),
     url(Media/header_pic.jpg);
+    background-position: center center;
 }
 
 
@@ -150,10 +156,16 @@ body {
 
 .work_title {
     color: #F13C20;
+    filter: drop-shadow(0 0 0.3em black);
 }
 
-.party_active {
-    color: #565656;
+.movie_title {
+    filter: drop-shadow(0 0 0.3em black);
+    color: #D79922;
+}
+
+.party_title {
+    filter: drop-shadow(0 0 0.3em black);
 }
 
 .film_active {
