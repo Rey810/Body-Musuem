@@ -22,7 +22,6 @@ body {
     flex-direction: column;
     height: calc(var(--vh, 1vh) * 100);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -36,7 +35,7 @@ body {
 .cof_image {
     background-color: #004489;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #004489),
-    url(Media/cof_shop/kons_1.jpg);
+    url(Media/cofshop/kons_1.JPG);
     background-position: center center;
 }
 
