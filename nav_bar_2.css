@@ -20,14 +20,6 @@
   .main_image .topnav {
     justify-content: flex-end;
   }
-
-  .main_image .topnav a:hover {
-    border-bottom: 0.2vw solid white;
-    transform: none !important;
-    filter: none  !important;
-    transition: none  !important;
-  }
-
 }
 
 
@@ -109,6 +101,14 @@
   font-weight: 900;
   transform: scale(0.97);
 }
+
+  .main_image .topnav a:hover {
+    border-bottom: 0.2vw solid white;
+    transform: scale(0.97)  !important;
+    filter: none !important;
+    transition: none !important;
+  }
+
 
 #menu_icon_parent {
   font-size: calc(var(--vh, 1vh) * 4);

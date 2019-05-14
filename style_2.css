@@ -69,7 +69,7 @@ body {
 
 .main_image {
     background-color: #a77550;
-    background-image: url(Media/header_pic-blur.jpg);
+    background-image: url(Media/header_pic.jpg);
     background-position: bottom center;
 }
 
@@ -488,12 +488,12 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     position: relative;
     margin: 10px;
     opacity: 0;
-    transform: translateY(20%) scale(0.95);
+    transform: translateY(20%);
 }
 
 .pic_block.active {
     opacity: 1;
-    transform: translateY(0) scale(1);
+    transform: translateY(0);
     transition: ease 0.4s all;
 }
 
