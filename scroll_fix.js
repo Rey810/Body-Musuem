@@ -5,25 +5,6 @@ window.addEventListener('resize', () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
 
-
-
-//defines colour of drop-shadow ......... nvm, quicker to just style 
-// var topHome = document.querySelector('.top_home');
-
-// function ShadowCol() {
-//   console.log(topHome.id);
-//   topHome.style.filter = `drop-shadow(0 0 0.4rem var(--${topHome.id}))`;
-// };
-
-// function noShadowCol(){
-//   topHome.style.filter = 'none';
-// };
-
-
-// topHome.addEventListener("mouseenter", ShadowCol);
-// topHome.addEventListener("mouseout", noShadowCol);
-
-
 //defines position at which scroll bar gets sticky
 const nav = document.querySelector('#main_nav');
 const topOfNav = nav.offsetTop; //gets the distance from top
@@ -102,51 +83,3 @@ function scrollDown() {
 };
 
 arrow.addEventListener('click', scrollDown);
-
-
-
-//defines colour of symbol backgrounds on hover
-// const hoverArea = document.querySelector('.symbol_list');
-
-
-// function colourChange(e){
-//   console.log(e.target.className);
-
-//   if (e.target.className == 'work_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#F13C20');
-//   };
-//   if (e.target.className == 'film_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#D79922');
-//   };
-//   if (e.target.className == 'party_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#565656');
-//   };
-//   if (e.target.className == 'fav_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#E4599A');
-//   };
-//   if (e.target.className == 'logo fav_logo') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);f
-//     document.documentElement.style.setProperty('--galcol', '#E4599A');
-//   };
-//   if (e.target.className == 'cof_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#004489');
-//   };
-//   if (e.target.className == 'com_colour') {
-//     const cof = [...document.querySelectorAll(e.target.className)];
-//     console.log(e.target.className);
-//     document.documentElement.style.setProperty('--galcol', '#66FCF1');
-//   };
-// };
-
-// hoverArea.addEventListener('mouseover', colourChange);

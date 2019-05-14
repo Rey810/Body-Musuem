@@ -5,14 +5,17 @@
   <title>Body Museum</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset='utf-8'>
-  <meta name="theme-color" content="#a77550">
-  <link href='stylesheet.css' rel="stylesheet">
-  <link href='nav_bar.css' rel='stylesheet'>
+  <meta name="theme-color" content="#F13C20">
+  <link href='style_2.css' rel="stylesheet">
+  <link href='nav_bar_2.css' rel='stylesheet'>
+  <link rel="stylesheet" href="media_queries.css">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
-  <link rel="icon" sizes="192x192" href="Media/icon.png">
+  <link rel="icon" href="Media/BM.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
   <script type="text/javascript" src="nav_bar.js" async></script>
   <script type="text/javascript" src="scroll_fix.js" async></script>
@@ -23,26 +26,37 @@
 </head>
 
 <body>
+      
 
-
-    <section class = 'banner'>
-            <div class = 'main_title' id="main_title">
-                <h1 style= 'color: white;'><span>Body  Museum</span></h1>
+    <div class = 'main_image gallery_banner'>
+       <div class="topnav" id="myTopnav">
+         <div class='first_child'></div>
+         <a href="https://www.instagram.com/body_museum/">instagram</a>
+         <a href="learn_more.html" title='Learn More'>learn more</a>
+         <a href="javascript:void(0);" class="icon" id='menu_icon_parent' onclick="myFunction()">
+           <i id='menu_icon' class="top_icon fa fa-bars"></i>
+         </a>
+       </div>
+            <div class='gallery_title_area'>
+              <div class='gallery_title_text'>
+                <h2 class='exp_main_title' id="h2">body museum</h2>
+              </div>
             </div>
+            <div class='arrow_icon'><i style='cursor: pointer;' class="fa fa-angle-double-down" id='angle_down'></i>
+            </div>
+          </div>
 
-    </section>
+             <nav class="gallery_symbols" id="main_nav">
+               <ul class='symbol_list film'>
+                 <li class='logo' id='main_logo' style='cursor: pointer;'>
+                   <div class='img_logo_parent' style='color: white;'><img id='img_logo' src="Media/icon.png"></div>
+                 </li>
+               </ul>
+             </nav>
 
 
     <section class = 'main_galleries'>
-      <div class = 'main_button'>
-          <h2 id="h2">
-            <a href='learn_more.html' class = 'btn'>Learn More</a>
-          </h2>
-      </div>
-      <div class = 'describe' id="describe">
-            <p>"The ways that we sit help define us... <br>But what defines the ways that we sit?"</p>
-      </div>
-      <div class = 'gallery'>
+      <div style='margin-top: 0; padding-top: 5vh;'class = 'gallery'>
 
 
         <a href= 'gallery_fav.html'>
@@ -128,24 +142,24 @@
   </body>
 
 
-  <footer>
-    <div class="contact" id="contact">
-      <i class="white_icon fa fa-instagram"></i>
-        <a href="https://www.instagram.com/body_museum/">body_museum</a>
-            &#x2706 +44 7435 584660
-              <br>
-                &#x2709 valentinapolc@gmail.com
-    </div>
-    <div class="copyright">
-      Project by Valentina Polcovnicova
-        <br>
-          <br>
-            &copy Body Museum 2019 | All Rights Reserved |
-              <br>
-                <br>
-                Website Created by Rey van den Berg
+     <footer>
+       <div class="contact" id="contact">
+         <i class="white_icon fa fa-instagram"></i>
+         <a href="https://www.instagram.com/body_museum/">body_museum</a>
+         &#x2706 +44 7435 584660
+         <br>
+         &#x2709 valentinapolc@gmail.com
+       </div>
+       <div class="copyright">
+         Project by Valentina Polcovnicova
+         <br>
+         <br>
+         &copy Body Museum 2019 | All Rights Reserved |
+         <br>
+         <br>
+         Website Created by Rey van den Berg
 
-    </div>
-  </footer>
+       </div>
+     </footer>
 
 </html>

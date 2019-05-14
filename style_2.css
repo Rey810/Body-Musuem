@@ -69,9 +69,8 @@ body {
 
 .main_image {
     background-color: #a77550;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #a77550),
-    url(Media/header_pic.jpg);
-    background-position: center center;
+    background-image: url(Media/fav/jo_fav_3.png);
+    background-position: bottom center;
 }
 
 
@@ -138,6 +137,17 @@ body {
     filter: drop-shadow(0 0.05em 0.2em black);
 }
 
+.main_title {
+    font-size: 5em;
+    color: black;
+    filter: drop-shadow(0 0.05em 0.2em white);
+}
+
+.exp_main_title {
+    font-size: 5em;
+    color: black;
+    filter: drop-shadow(0.2em -0.2em 0.2em white)
+}
 
 .act_title {
     font-size: 4em;
@@ -353,6 +363,10 @@ li.logo a {
 
 .fixed-nav li.logo {
     max-width: 500px;
+}
+
+.fixed-nav #main_logo {
+    max-width: 100%;
 }
 
 nav a {
