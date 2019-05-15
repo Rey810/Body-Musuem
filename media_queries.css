@@ -36,7 +36,7 @@
   }
 
   #img_logo {
-    height: 1.8em;
+    height: 1.3em;
   }
 
 
@@ -88,7 +88,7 @@
   }
 
   #img_logo {
-    height: 1.8em;
+    height: 1.3em;
   }
 
    .main_galleries h2 {
@@ -147,7 +147,7 @@
      }
 
      #img_logo {
-       height: 1.8em;
+       height: 1.3em;
      }
 
       .main_galleries h2 {
@@ -269,6 +269,13 @@
       .gallery_banner {
         background-attachment: scroll;
       }
+
+      .mobile_image {
+        background-color: #a77550;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(Media/mobile_header.jpg);
+        background-position: bottom center;
+      }
   /*top nav bar*/
 
    #active {
@@ -279,13 +286,21 @@
     font-size: calc(var(--vh, 1vh) * 5);
     margin: 0;
   }
+  
+  nav {
+    opacity: 0;
+  }
+
+  body.fixed-nav nav {
+    opacity: 1;
+  }
 
   li.logo {
     font-size: 2.5em;
   }
 
   .fixed-nav li.logo {
-    margin: 0 3vw;
+    padding: 0 3vw;
   }
 
   /*gallery intro area */
@@ -302,6 +317,13 @@
   #h2 {
     font-size: 3em;
     line-height: 1em;
+  }
+
+  #h3 {
+ font-size: 3em;
+ line-height: 0.7em;
+ display: block;
+ padding-bottom: 0;
   }
 
   .main_galleries {
@@ -323,6 +345,77 @@
      flex-direction: column;
      margin: 1em 0;
    }
+
+.pic_block {
+  margin: 1em;
+}
+
+  .main_pic_block img {
+    display: none;
+  }
+
+  .landing_gallery {
+    display: block;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: calc(var(--vh, 1vh) * 100);
+  }
+
+.landing_gallery &::-webkit-scrollbar {
+  display: none;
+}
+
+  .main_pic_block {
+   width: calc(var(--vw, 1vw) * 85);
+   display: inline-block;
+   height: 80%;
+   background-size: cover;
+   background-position: center center;
+   margin: 0vw 5vw 0 5vw;
+       -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+       -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+       box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+  }
+
+  .main_pic_block#landfav {
+    background-color: #E4599A;
+background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, 0.9)),
+url(Media/fav/jo_fav-min.jpg);
+  }
+
+   .main_pic_block#landcof {
+    background-color: #004489;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
+    url(Media/cofshop/kons_1-min.JPG);
+   }
+
+    .main_pic_block#landmovie {
+    background-color: #D79922;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
+    url(Media/movie/ning_5-min.JPG);
+    }
+
+     .main_pic_block#landparty {
+     background-color: #565656;
+     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
+     url(Media/party/jo_4-min.JPG);
+     }
+
+      .main_pic_block#landwork {
+    background-color: #F13C20;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
+    url(Media/wrk/pd_3-min.JPG);
+      }
+
+       .main_pic_block#landcom {
+    background-color: #66FCF1;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
+    url(Media/com/pam_2-min.JPG);
+       }
+
+  
 
   footer {
     padding-top: 0;

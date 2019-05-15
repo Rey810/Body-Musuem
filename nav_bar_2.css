@@ -164,14 +164,98 @@ a::after {
 }
 
 
+/*Funky menu bar (navicon)*/
+
+.navicon-button {
+  display: inline-block;
+  position: relative;
+  padding: 2.0625rem 1.5rem !important;
+  transition: 0.25s !important;
+  cursor: pointer;
+  user-select: none !important;
+  opacity: .8 !important;
+  transform: scale(1) !important;
+}
+
+.navicon-button .navicon:before,
+.navicon-button .navicon:after {
+  transition: 0.25s;
+}
+
+.navicon-button:hover {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.navicon-button:hover .navicon:before,
+.navicon-button:hover .navicon:after {
+  transition: 0.25s;
+}
 
 
 
-/*Scrolling then fix content*/
-  /* .top-header {
-    right: 5vw;
-    top:5vw;
-    width: 100%;
-    position: fixed;
-  } */
-  }
+.navicon {
+  position: absolute;
+  top: 4vw;
+  width: 1.1em;
+  height: .3125rem;
+  background: #FFF;
+  transition: 0.5s;
+  border-radius: 2.5rem;
+}
+
+#menu_icon_parent {
+filter: none !important;
+}
+
+.navicon:before,
+.navicon:after {
+  display: block;
+  content: "";
+  height: .3125rem;
+  width: 1rem;
+  background: #FFF;
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s 0.25s;
+  border-radius: 1rem !important;
+}
+
+.navicon:before {
+  top: .625rem;
+}
+
+.navicon:after {
+  top: -.625rem;
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: 0.5s;
+}
+
+
+/* × and + */
+.open.plus .navicon,
+.open.x .navicon {
+  background: transparent;
+}
+
+.open.plus .navicon:before,
+.open.x .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.open.plus .navicon:after,
+.open.x .navicon:after {
+  transform: rotate(45deg);
+}
+
+.open.plus {
+  transform: scale(0.75) rotate(45deg);
+}

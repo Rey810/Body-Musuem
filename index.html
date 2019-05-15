@@ -28,18 +28,18 @@
 <body>
       
 
-    <div class = 'main_image gallery_banner'>
+    <div class = 'main_image mobile_image gallery_banner'>
        <div class="topnav" id="myTopnav">
          <div class='first_child'></div>
          <a href="https://www.instagram.com/body_museum/">instagram</a>
          <a href="learn_more.html" title='Learn More'>learn more</a>
-         <a href="javascript:void(0);" class="icon" id='menu_icon_parent' onclick="myFunction()">
-           <i id='menu_icon' class="top_icon fa fa-bars"></i>
-         </a>
+         <<a href="javascript:void(0);" class="navicon-button icon " id='menu_icon_parent' onclick="myFunction()">
+           <div class="navicon" id='menu_icon' class="top_icon fa fa-bars"></div>
+           </a>
        </div>
             <div class='gallery_title_area'>
               <div class='gallery_title_text'>
-                <h2 class='exp_main_title' id="h2">body museum</h2>
+                <h2 class='exp_main_title' id="h2">Body Museum</h2>
               </div>
             </div>
             <div class='arrow_icon'><i style='cursor: pointer;' class="fa fa-angle-double-down" id='angle_down'></i>
@@ -47,96 +47,76 @@
           </div>
 
              <nav class="gallery_symbols" id="main_nav">
-               <ul class='symbol_list film'>
+                <ul class='symbol_list film'>
                  <li class='logo' id='main_logo' style='cursor: pointer;'>
                    <div class='img_logo_parent' style='color: white;'><img id='img_logo' src="Media/icon.png"></div>
                  </li>
                </ul>
              </nav>
 
-
     <section class = 'main_galleries'>
-      <div style='margin-top: 0; padding-top: 5vh;'class = 'gallery'>
+      <!-- <h2 id="h3">
+        All Galleries
+        <br>
+        →
+      </h2> -->
+      <div style='margin-top: 0; padding-top: 5vh;'class = 'landing_gallery gallery'>
 
 
-        <a href= 'gallery_fav.html'>
-          <div class = 'pic_block' id = '6'>
-            <img src= 'Media/title_gal_fav.jpg' alt='gallery 6'
-                  srcset= "Media/title_gal_fav.jpg 640w"
-                  sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+          <a class='main_pic_block pic_block' id='landfav' href="gallery_fav.html">
+                        <img src='Media/title_gal_fav.jpg' alt='gallery 6' srcset="Media/title_gal_fav.jpg 640w" sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                       (min-width: 1000px) 35vw,
                       254px,">
             <div class="gal_name"><h3>Favourite</h3>
             </div>
-          </div>
         </a>
 
-        <a href= 'gallery_cof.html'>
-          <div class = 'pic_block' id = '1'>
-            <img src= 'Media/title_gal_1.JPG' alt='gallery 1'
-                  srcset= "Media/title_gal_1.JPG 640w"
-                  sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+                <a class = 'main_pic_block pic_block' id = 'landcof' href='gallery_cof.html'>
+                      <img src='Media/title_gal_1.JPG' alt='gallery 1' srcset="Media/title_gal_1.JPG 640w" sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                       (min-width: 1000px) 35vw,
                       254px,">
             <div class="gal_name">
               <h3>Coffee Shop</h3>
             </div>
-          </div>
-        </a>
-
-
-              <a href= 'gallery_com.html'>
-                <div class = 'pic_block' id = '2'>
-                  <img src= 'Media/title_gal_2.jpg' alt='gallery 2'
-                        srcset= "Media/title_gal_2.jpg 640w"
-                        sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+            </a>
+        
+                <a class = 'main_pic_block pic_block' id = 'landcom' href="gallery_com.html">
+                            <img src='Media/title_gal_2.jpg' alt='gallery 2' srcset="Media/title_gal_2.jpg 640w" sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                             (min-width: 1000px) 35vw,                            254px,">
                   <div class="gal_name">
                     <h3>Commuting</h3>
                   </div>
-                </div>
-              </a>
-
-              <a href= 'gallery_work.html'>
-                <div class = 'pic_block' id = '3'>
-                  <img src= 'Media/title_gal_3.JPG' alt='gallery 3'
-                        srcset= "Media/title_gal_3.JPG 640w"
-                        sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+                </a>
+                 <a class = 'main_pic_block pic_block' id = 'landwork' href='gallery_work.html'>
+                                  <img src='Media/title_gal_3.JPG' alt='gallery 3' srcset="Media/title_gal_3.JPG 640w"
+                                    sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                             (min-width: 1000px) 35vw,
                             254px,">
                   <div class="gal_name">
                     <h3>Overworked</h3>
                   </div>
-                </div>
-              </a>
-
-              <a href= 'gallery_party.html'>
-                <div class = 'pic_block' id = '4'>
-                  <img src= 'Media/title_gal_4.jpg' alt='gallery 4'
-                        srcset= "Media/title_gal_4.jpg 640w"
-                        sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+                </a>
+                             
+              <a class = 'main_pic_block pic_block' id = 'landparty' href="gallery_party.html">
+                                  <img src='Media/title_gal_4.jpg' alt='gallery 4' srcset="Media/title_gal_4.jpg 640w"
+                                    sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                             (min-width: 1000px) 35vw,
                             254px,">
                   <div class="gal_name">
                     <h3>House Party</h3>
                   </div>
-                </div>
-              </a>
-
-              <a href= 'gallery_movie.html'>
-                <div class = 'pic_block' id = '5'>
-                  <img src= 'Media/title_gal_5.jpg' alt='gallery 5'
-                        srcset= "Media/title_gal_5.jpg 640w"
-                        sizes= "(max-width: 480px) 90vw, (max-width: 900px) 33vw,
+                </a>
+                             
+              <a class = 'main_pic_block pic_block' id = 'landmovie' href='gallery_movie.html'>
+                                  <img src='Media/title_gal_5.jpg' alt='gallery 5' srcset="Media/title_gal_5.jpg 640w"
+                                    sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                             (min-width: 1000px) 35vw,
                             254px,">
                   <div class="gal_name">
                     <h3>Movie Theatre</h3>
                   </div>
-                </div>
-              </a>
-
-        </div>
+                </a>
+                      </div>
     </section>
 
   </body>
