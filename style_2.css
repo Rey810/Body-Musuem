@@ -16,6 +16,9 @@ html {
 body {
     margin: 0;
     transition: all 0.5s ease;
+    -webkit-transition: ease 0.5s ease;
+    -o-transition: ease 0.5s ease;
+    -moz-transition: ease 0.5s ease;
 }
 
 .gallery_banner {
@@ -73,6 +76,13 @@ body {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(Media/header_pic.jpg);
     background-position: bottom center;
+}
+
+.perf_image {
+    background-color: teal;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #ff000073, rgb(24, 24, 24, 0.9)),
+    url(Media/header_perform.jpg);
+    background-position: center center;
 }
 
 
@@ -137,6 +147,11 @@ body {
 .act_fav_title {
     font-size: 4em;
     filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.perf_title {
+    font-size: 5em;
+     filter: drop-shadow(0 0.05em 0.2em black);
 }
 
 .main_title {
@@ -320,7 +335,10 @@ nav {
     background: #181818;
     top: 0;
     width: 100%;
-    transition: all 1s;
+    transition: all 0.05s; 
+    -webkit-transition: all 0.05s;
+    -o-transition: all 0.05s;
+    -moz-transition: all 0.05s;
     position: relative;
     z-index: 1;
 }
@@ -353,6 +371,9 @@ nav li a:hover .fa {
 li.logo {
     max-width: 0;
     overflow: hidden;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
     transition: all 0.5s;
     font-weight: 600;
     color: white;
@@ -378,6 +399,9 @@ nav a {
     display: flex;
     color: white;
     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
     text-transform: uppercase;
     width: 100%;
     align-items: center;
@@ -413,6 +437,9 @@ nav a {
 .img_logo_parent {
     display: flex;
     transition: ease 0.5s all;
+    -webkit-transition: ease 0.5s all;
+    -o-transition: ease 0.5s all;
+    -moz-transition: ease 0.5s all;
 }
 
 
@@ -422,6 +449,9 @@ nav a {
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     transition: ease 0.5s all;
+    -webkit-transition: ease 0.5s all;
+    -o-transition: ease 0.5s all;
+    -moz-transition: ease 0.5s all;
 }
 
 .symbol {
@@ -505,6 +535,9 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     opacity: 1;
     transform: translateY(0);
     transition: ease 0.4s all;
+    -webkit-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
 }
 
 .pic_block img {
