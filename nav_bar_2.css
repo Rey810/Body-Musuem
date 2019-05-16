@@ -150,6 +150,9 @@ a::after {
   filter: drop-shadow(0 0 0.15em black);
   transform: scale(1.1);
   transition: ease 0.2s all;
+  -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
 }
 
 /* Add an active class to highlight the current page */
@@ -171,6 +174,9 @@ a::after {
   position: relative;
   padding: 2.0625rem 1.5rem !important;
   transition: 0.25s !important;
+  -webkit-transition: 0.25s !important;
+  -o-transition: 0.25s !important;
+  -moz-transition: 0.25s !important;
   cursor: pointer;
   user-select: none !important;
   opacity: .8 !important;
@@ -180,16 +186,25 @@ a::after {
 .navicon-button .navicon:before,
 .navicon-button .navicon:after {
   transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  -moz-transition: 0.25s;
 }
 
 .navicon-button:hover {
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
   opacity: 1;
 }
 
 .navicon-button:hover .navicon:before,
 .navicon-button:hover .navicon:after {
   transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  -moz-transition: 0.25s;
 }
 
 
@@ -201,6 +216,10 @@ a::after {
   height: .3125rem;
   background: #FFF;
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
+
   border-radius: 2.5rem;
 }
 
@@ -218,6 +237,9 @@ filter: none !important;
   position: absolute;
   z-index: -1;
   transition: 0.5s 0.25s;
+  -webkit-transition: 0.5s 0.25s;
+  -o-transition: 0.5s 0.25s;
+  -moz-transition: 0.5s 0.25s;
   border-radius: 1rem !important;
 }
 
@@ -237,6 +259,9 @@ filter: none !important;
 .open .navicon:before,
 .open .navicon:after {
   transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
 }
 
 
