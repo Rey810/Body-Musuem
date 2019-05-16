@@ -96,6 +96,17 @@ body {
 
 
 
+.perf_colours {
+        color: #f7ec5e !important;
+}
+
+.val_colour {
+    color: #b950ec !important;
+}
+
+
+
+
 
 
 
@@ -159,6 +170,10 @@ body {
 .perf_title, .learn_more_title {
     font-size: 5em;
      filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.perf_title {
+    color: #f7ec5e;
 }
 
 .main_title {
