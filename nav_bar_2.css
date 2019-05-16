@@ -94,25 +94,31 @@
   float: left;
   color: white;
   text-align: center;
-  margin: 1vw 1vw;
+  margin: 1vw 0;
   text-decoration: none;
   font-size: calc(var(--vh, 1vh) * 5);
-  padding: 0.5vw 0;
+  padding: 0.5vw 0.8vw;
   font-weight: 900;
   transform: scale(0.97);
 }
 
-  .main_image .topnav a:hover {
+.movie_links {
+  text-shadow: 1px 0.3px black;
+}
+
+ .topnav a:hover:not(:first-child) {
+   /*.main_image append as prefix when undoing commented-out sections here and on line 148*/
     border-bottom: 0.2vw solid white;
-    transform: scale(0.97)  !important;
+    /* transform: scale(0.97)  !important;
     filter: none !important;
-    transition: none !important;
+    transition: none !important; */
   }
 
 
 #menu_icon_parent {
   font-size: calc(var(--vh, 1vh) * 4);
   text-decoration: none;
+  border-bottom: none;
 }
 
 #menu_icon {
@@ -146,19 +152,22 @@ a::after {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover:not(:first-child) {
+/* .topnav a:hover:not(:first-child) {
   filter: drop-shadow(0 0 0.15em black);
   transform: scale(1.1);
   transition: ease 0.2s all;
   -moz-transition: ease 0.2s all;
   -o-transition: ease 0.2s all;
   -webkit-transition: ease 0.2s all;
-}
+} */
 
 /* Add an active class to highlight the current page */
 #active {
-  filter: drop-shadow(0 0 0.15em black);
-  transform: scale(1.2);
+  /* filter: drop-shadow(0 0 0.15em black);
+  transform: scale(1.2); */
+  transform: scale(1.1);
+  border-bottom: 0.2vw solid white;
+  filter: drop-shadow(0 1px 0.7px black);
 }
 
 /* Hide the link that should open and close the topnav on small screens */

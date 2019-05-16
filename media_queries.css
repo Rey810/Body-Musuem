@@ -50,6 +50,23 @@
      flex-direction: row;
   }
 
+  /*performance.html sand about page pecific*/
+  .perf_text_body, .about_text_body {
+    padding: 5vw 25vw 3vw 25vw;
+  }
+
+
+  /*learn more/about*/
+  #about_header {
+    width: 60vw;
+    font-size: 2em;
+    line-height: inherit;
+  }
+
+
+
+
+
   footer {
     padding-top: 10vh;
   }
@@ -280,6 +297,7 @@
 
    #active {
      transform: scale(1);
+     width: 50%;
    }
 
   .top_home {
