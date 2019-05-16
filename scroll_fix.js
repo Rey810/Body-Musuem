@@ -1,11 +1,11 @@
 //resize landing page per viewport
-// Listen to the resize event
-window.addEventListener('onload', () => {
+// Listen to the page load event
+// window.addEventListener('onload', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
    let vw = window.innerWidth * 0.01;
    document.documentElement.style.setProperty('--vw', `${vw}px`);
-});
+// });
 
 //defines position at which scroll bar gets sticky
 const nav = document.querySelector('#main_nav');
