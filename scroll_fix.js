@@ -1,6 +1,6 @@
 //resize landing page per viewport
 // Listen to the resize event
-window.addEventListener('resize', () => {
+window.addEventListener('onload', () => {
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
    let vw = window.innerWidth * 0.01;
@@ -12,7 +12,7 @@ const nav = document.querySelector('#main_nav');
 const topOfNav = nav.offsetTop; //gets the distance from top
 
 function fixNav() {
-  console.log(topOfNav, window.scrollY);
+  // console.log(topOfNav, window.scrollY);
   if (window.scrollY >= topOfNav) {
     document.querySelector(".main_galleries").style.paddingTop = nav.offsetHeight + 'px';
     document.body.classList.add('fixed-nav');
