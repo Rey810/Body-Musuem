@@ -307,7 +307,7 @@
       }
 
       .mobile_image {
-        background-color: #233a63;
+        background-color: black;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url(Media/new_header_phone.jpg);
         background-size: contain;
@@ -397,6 +397,8 @@
     top: 2em;
     left: 0;
     writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
     text-orientation: upright;
     line-height: 1em;
     font-size: 2em;
