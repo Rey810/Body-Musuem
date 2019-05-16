@@ -312,6 +312,34 @@ body {
     color: white;
 }
 
+.fa#white_icon {
+    color: #b3b3b3;
+}
+
+.fa#fav_icon, .fav_icon {
+    color: #E4599A;
+}
+
+.fa#work_icon, .work_icon {
+    color: #F13C20;
+}
+
+.fa#com_icon, .com_icon {
+    color: #66FCF1;
+}
+
+.fa#party_icon, .party_icon {
+    color: #565656;
+}
+
+.fa#film_icon, .film_icon {
+    color: #D79922;
+}
+
+.fa#cof_icon, .cof_icon {
+    color: #004489;
+}
+
 .arrow_icon i:hover {
     filter: drop-shadow(0 0 0.1rem white);
 }

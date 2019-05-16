@@ -7,7 +7,7 @@ function myFunction() {
     z.className += " open";
   } else {
     x.className = "topnav";
-    y.className = "gallery_title_area";
+    y.className = "gallery_title_area mobile_main";
     z.classList.remove("open")
   }
 }

@@ -291,7 +291,20 @@
         background-color: #a77550;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url(Media/mobile_header.jpg);
-        background-position: bottom center;
+        background-size: contain;
+        background-position: right;
+      }
+
+      #mobile_colour {
+        color: white;
+      }
+
+      .mobile_main {
+        padding-left: 0 !important;
+      }
+
+      .exp_mobile_main {
+        filter: none;
       }
   /*top nav bar*/
 
