@@ -565,11 +565,17 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     margin: 2em;
     opacity: 0;
     transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    -o-transform: translateY(20%);
 }
 
 .pic_block.active {
     opacity: 1;
     transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
     transition: ease 0.4s all;
     -webkit-transition: ease 0.4s all;
     -o-transition: ease 0.4s all;
