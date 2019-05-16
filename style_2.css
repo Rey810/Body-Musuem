@@ -80,7 +80,7 @@ body {
 
 .perf_image {
     background-color: teal;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #ff000073, rgb(24, 24, 24, 0.9)),
+    background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.37), #55058657, rgba(0, 0, 0, 0.9)),
     url(Media/header_perform.jpg);
     background-position: center center;
 }
@@ -239,6 +239,10 @@ body {
      background-color: #D79922;
  }
 
+
+.fav li a i {
+    color: #E4599A;
+}
 
 .cof li a i {
     color: #004489;
