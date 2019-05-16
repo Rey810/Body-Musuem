@@ -74,7 +74,7 @@ body {
 .main_image {
     background-color: #a77550;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(Media/header_pic.jpg);
+    url(Media/new_header.jpg);
     background-position: bottom center;
 }
 
