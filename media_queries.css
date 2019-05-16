@@ -76,7 +76,7 @@
   /*learn more/about*/
   #about_header {
     font-style: italic;
-    padding: 0 28vw 0 26vw
+    padding: 0 28vw 0 26vw;
     font-size: 1.2em;
     line-height: inherit;
     font-weight: 500;
