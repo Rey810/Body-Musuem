@@ -35,6 +35,11 @@
     font-size: 4em;
   }
 
+  #landing_title {
+    margin-bottom: 6vw;
+    font-size: 6em;
+  }
+
   #img_logo {
     height: 1.3em;
   }
@@ -51,16 +56,22 @@
   }
 
   /*performance.html sand about page pecific*/
-  .perf_text_body, .about_text_body {
+  .perf_text_body.about_text_body {
     padding: 5vw 25vw 3vw 25vw;
+  }
+
+  .about_text_body {
+       padding: 2vw 25vw 3vw 25vw;
   }
 
 
   /*learn more/about*/
   #about_header {
-    width: 60vw;
-    font-size: 2em;
+    font-style: italic;
+    padding: 0 28vw 0 26vw
+    font-size: 1.2em;
     line-height: inherit;
+    font-weight: 500;
   }
 
 

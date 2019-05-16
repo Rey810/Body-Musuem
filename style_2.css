@@ -88,7 +88,7 @@ body {
 
 .learn_more_image {
     background-color: #977454d4;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #977454d4, rgb(24, 24, 24, 0.9)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.23), #3222af8c, rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
     background-position: bottom center;
 }
@@ -169,8 +169,8 @@ body {
 
 .exp_main_title {
     font-size: 5em;
-    color: black;
-    filter: drop-shadow(0.1em 0.0em 0.6em white);
+    color: white;
+    /* filter: drop-shadow(0.1em 0.0em 0.6em white); */
 }
 
 .act_title {
@@ -701,12 +701,12 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 
 
 
-/*learn more/about*/
+/* learn more/about
 #about_header_text {
     background: rgb(0,0,0,0.4);
     padding: 2vw;
     border-radius: 1vw;
-}
+} */
 
 
 
