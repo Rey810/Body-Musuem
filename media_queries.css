@@ -288,7 +288,7 @@
       }
 
       .mobile_image {
-        background-color: #a77550;
+        background-color: #233a63;
         background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
         url(Media/mobile_header.jpg);
         background-size: contain;
@@ -348,6 +348,7 @@
   #h2 {
     font-size: 3em;
     line-height: 1em;
+    word-spacing: -0.13em;
   }
 
   #h3 {
@@ -414,36 +415,54 @@
     background-color: #E4599A;
 background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, 0.9)),
 url(Media/fav/jo_fav-min.jpg);
+-webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+-moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
   }
 
    .main_pic_block#landcof {
     background-color: #004489;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
     url(Media/cofshop/kons_1-min.JPG);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
    }
 
     .main_pic_block#landmovie {
     background-color: #D79922;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
     url(Media/movie/ning_5-min.JPG);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     }
 
      .main_pic_block#landparty {
      background-color: #565656;
      background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
      url(Media/party/jo_4-min.JPG);
+     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+     box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
      }
 
       .main_pic_block#landwork {
     background-color: #F13C20;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
     url(Media/wrk/pd_3-min.JPG);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
       }
 
        .main_pic_block#landcom {
     background-color: #66FCF1;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
     url(Media/com/pam_2-min.JPG);
+    -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
        }
 
   

@@ -467,7 +467,7 @@ nav a {
 
 /*gallery icons*/
  .fa {
-     color: #E4599A;
+     color: #b3b3b3;
  }
 
 .img_logo_parent {
@@ -574,6 +574,42 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     -webkit-transition: ease 0.4s all;
     -o-transition: ease 0.4s all;
     -moz-transition: ease 0.4s all;
+}
+
+.main_pic_block#landfav {
+    filter: drop-shadow(0.3em 0.3em 0.08em black);
+    -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+    -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
+}
+
+.main_pic_block#landcof {
+   filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
+}
+
+.main_pic_block#landmovie {
+   filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
+}
+
+.main_pic_block#landparty {
+   filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
+}
+
+.main_pic_block#landwork {
+   filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
+}
+
+.main_pic_block#landcom {
+   filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
+   -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
 }
 
 .pic_block img {
