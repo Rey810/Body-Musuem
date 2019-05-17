@@ -47,24 +47,24 @@ body {
 
 .cof_image {
     background-color: #004489;
-    background-image: url(Media/cofshop/kons_1-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #0044899c, rgb(24, 24, 24, )),
-    url(Media/cofshop/kons_1-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #0044899c, rgb(24, 24, 24, )),
-    url(Media/cofshop/kons_1-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #0044899c, rgb(24, 24, 24, )),
-    url(Media/cofshop/kons_1-min.JPG);
+    background-image: url(Media/cofshop/kons_1-header.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    url(Media/cofshop/kons_1-header.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    url(Media/cofshop/kons_1-header.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    url(Media/cofshop/kons_1-header.JPG);
     background-position: center center;
 }
 
 .com_image {
     background-color: #66FCF1;
     background-image: url(Media/com/pam_2-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #66fcf191, rgb(24, 24, 24, )),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #66fcf191, rgb(24, 24, 24, )),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #66fcf191, rgb(24, 24, 24, )),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
     background-position: bottom center;
 }
@@ -72,11 +72,11 @@ body {
 .party_image {
     background-color:  #565656;
     background-image: url(Media/party/jo_4-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #565656cc, rgb(24, 24, 24, )),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #565656cc, rgb(24, 24, 24, )),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #565656cc, rgb(24, 24, 24, )),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
         background-position: center center;
 }
@@ -84,24 +84,24 @@ body {
 .film_image {
     background-color: #D79922;
     background-image: url(Media/movie/ning_5-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #D79922a1, rgb(24, 24, 24, )),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #D79922a1, rgb(24, 24, 24, )),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #D79922a1, rgb(24, 24, 24, )),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
         background-position: center center;
 }
 
 .work_image {
     background-color: #F13C20;
-    background-image: url(Media/wrk/pd_3-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #f13c2091, rgb(24, 24, 24, )),
-        url(Media/wrk/pd_3-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #f13c2091, rgb(24, 24, 24, )),
-        url(Media/wrk/pd_3-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #f13c2091, rgb(24, 24, 24, )),
-        url(Media/wrk/pd_3-min.JPG);
+    background-image: url(Media/wrk/pd_3-header.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+        url(Media/wrk/pd_3-header.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+        url(Media/wrk/pd_3-header.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+        url(Media/wrk/pd_3-header.JPG);
         background-position: center center;
 }
 
