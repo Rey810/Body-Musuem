@@ -470,7 +470,7 @@
    height: 90%; 
    background-size: cover;
    background-position: center center;
-   margin: 0vw 6.5vw 0 6.5vw
+   /* margin: 0vw 6.5vw 0 6.5vw; */
        -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
        -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
        box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
@@ -493,14 +493,14 @@ box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
 
    .main_pic_block#landcof {
  background-color: #004489;
- background-image: url(Media/cofshop/kons_1-header.JPG);
+ background-image: url(Media/cofshop/val_coffee-header.JPG);
  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/kons_1-header.JPG);
+ url(Media/cofshop/val_coffee-header.JPG);
  background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/kons_1-header.JPG);
+ url(Media/cofshop/val_coffee-header.JPG);
  background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/kons_1-header.JPG);
- background-position: center center;
+ url(Media/cofshop/val_coffee-header.JPG);
+ background-position: left center;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
