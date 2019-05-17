@@ -492,29 +492,41 @@ box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
   }
 
    .main_pic_block#landcof {
- background-color: #004489;
- background-image: url(Media/cofshop/val_coffee-header.JPG);
- background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/val_coffee-header.JPG);
- background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/val_coffee-header.JPG);
- background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
- url(Media/cofshop/val_coffee-header.JPG);
+ background-color: rgba(0, 68, 137, 0.612);
+ background-image: url("Media/cofshop/val_coffee-header.JPG");
+ background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+ url("Media/cofshop/val_coffee-header.JPG");
+ background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+ url("Media/cofshop/val_coffee-header.JPG");
+ background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+ url("Media/cofshop/val_coffee-header.JPG");
  background-position: left center;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
    }
 
+   .mobile_cof_image {
+     background-color: #66FCF1;
+     background-image: url("Media/cofshop/val_coffee-header.JPG");
+     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+     url("Media/cofshop/val_coffee-header.JPG");
+     background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+     url("Media/cofshop/val_coffee-header.JPG");
+     background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
+     url("Media/cofshop/val_coffee-header.JPG");
+     background-position:   left center;
+   }
+
     .main_pic_block#landmovie {
    background-color: #D79922;
-   background-image: url(Media/movie/ning_5-min.JPG);
-   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
-   url(Media/movie/ning_5-min.JPG);
-   background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
-   url(Media/movie/ning_5-min.JPG);
-   background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
-   url(Media/movie/ning_5-min.JPG);
+   background-image: url("Media/movie/ning_5-min.JPG");
+   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
+   url("Media/movie/ning_5-min.JPG");
+   background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
+   url("Media/movie/ning_5-min.JPG");
+   background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
+   url("Media/movie/ning_5-min.JPG");
    background-position: center center;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
@@ -523,13 +535,13 @@ box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
 
      .main_pic_block#landparty {
        background-color: #565656;
-       background-image: url(Media/party/jo_4-min.JPG);
-       background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
-       url(Media/party/jo_4-min.JPG);
-       background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
-       url(Media/party/jo_4-min.JPG);
-       background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
-       url(Media/party/jo_4-min.JPG);
+       background-image: url("Media/party/jo_4-min.JPG");
+       background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
+       url("Media/party/jo_4-min.JPG");
+       background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
+       url("Media/party/jo_4-min.JPG");
+       background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
+       url("Media/party/jo_4-min.JPG");
        background-position: center center;
      -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
      -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
@@ -538,13 +550,13 @@ box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
 
       .main_pic_block#landwork {
   background-color: #F13C20;
-  background-image: url(Media/wrk/pd_3-header.JPG);
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
-  url(Media/wrk/pd_3-header.JPG);
-  background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
-  url(Media/wrk/pd_3-header.JPG);
-  background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
-  url(Media/wrk/pd_3-header.JPG);
+  background-image: url("Media/wrk/pd_3-header.JPG");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569)rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+  url("Media/wrk/pd_3-header.JPG");
+  background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569)rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+  url("Media/wrk/pd_3-header.JPG");
+  background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569)rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+  url("Media/wrk/pd_3-header.JPG");
   background-position: center center;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
@@ -553,13 +565,13 @@ box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
 
        .main_pic_block#landcom {
     background-color: #66FCF1;
-    background-image: url(Media/com/pam_2-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
-    url(Media/com/pam_2-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
-    url(Media/com/pam_2-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
-    url(Media/com/pam_2-min.JPG);
+    background-image: url("Media/com/pam_2-min.JPG");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+    url("Media/com/pam_2-min.JPG");
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+    url("Media/com/pam_2-min.JPG");
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
+    url("Media/com/pam_2-min.JPG");
     background-position: bottom center;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);
     -moz-box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.7);

@@ -30,8 +30,8 @@ body {
 }
 
 .fav_image {
-    /* background-color: #E4599A;
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, )),
+    background-color: #E4599A;
+    /*background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, )),
     url(Media/fav/jo_fav-min.jpg); */
     /* background: -webkit-gradient(linear, to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, )),
     url(Media/fav/jo_fav-min.jpg); */
@@ -48,11 +48,11 @@ body {
 .cof_image {
     background-color: #004489;
     background-image: url(Media/cofshop/kons_1-header.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
     url(Media/cofshop/kons_1-header.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
     url(Media/cofshop/kons_1-header.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #0044899c, rgb(24, 24, 24, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgb(24, 24, 24, 0.52)),
     url(Media/cofshop/kons_1-header.JPG);
     background-position: center center;
 }
@@ -60,11 +60,11 @@ body {
 .com_image {
     background-color: #66FCF1;
     background-image: url(Media/com/pam_2-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #66fcf191, rgb(24, 24, 24, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/com/pam_2-min.JPG);
     background-position: bottom center;
 }
@@ -72,11 +72,11 @@ body {
 .party_image {
     background-color:  #565656;
     background-image: url(Media/party/jo_4-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #565656cc, rgb(24, 24, 24, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgb(24, 24, 24, 0.52)),
         url(Media/party/jo_4-min.JPG);
         background-position: center center;
 }
@@ -84,11 +84,11 @@ body {
 .film_image {
     background-color: #D79922;
     background-image: url(Media/movie/ning_5-min.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #D79922a1, rgb(24, 24, 24, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgb(24, 24, 24, 0.52)),
         url(Media/movie/ning_5-min.JPG);
         background-position: center center;
 }
@@ -96,11 +96,11 @@ body {
 .work_image {
     background-color: #F13C20;
     background-image: url(Media/wrk/pd_3-header.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/wrk/pd_3-header.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/wrk/pd_3-header.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), #f13c2091, rgb(24, 24, 24, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569), rgb(24, 24, 24, 0.52)),
         url(Media/wrk/pd_3-header.JPG);
         background-position: center center;
 }
@@ -120,11 +120,11 @@ body {
 .perf_image {
     background-color: #55058657;
     background-image: url(Media/header_perform.jpg);
-    background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.22), #55058657, rgba(0, 0, 0, 0.52)),
+    background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.22), rgba(85, 5, 134, 0.341), rgba(0, 0, 0, 0.52)),
     url(Media/header_perform.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(242, 243, 249, 0.22), #55058657, rgba(0, 0, 0, 0.52)),
+    background-image: -webkit-linear-gradient(top, rgba(242, 243, 249, 0.22), rgba(85, 5, 134, 0.341), rgba(0, 0, 0, 0.52)),
     url(Media/header_perform.jpg);
-    background-image: -moz-linear-gradient(to bottom, rgba(242, 243, 249, 0.22), #55058657, rgba(0, 0, 0, 0.52)),
+    background-image: -moz-linear-gradient(to bottom, rgba(242, 243, 249, 0.22), rgba(85, 5, 134, 0.341), rgba(0, 0, 0, 0.52)),
     url(Media/header_perform.jpg);
     background-position: 23% center;
 }
@@ -133,11 +133,11 @@ body {
 .learn_more_image {
     background-color: #977454d4;
     background-image: url(Media/header_learn.jpg);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), #3222af8c, rgb(6, 6, 6)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), #3222af8c, rgb(6, 6, 6)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), #3222af8c, rgb(6, 6, 6)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
     background-position: bottom center;
 }
