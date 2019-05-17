@@ -385,7 +385,7 @@
   }
 
   .main_galleries {
-    padding-bottom: 10vw;
+    padding-bottom: 0vw;
   }
 
   .main_galleries h2 {
@@ -457,7 +457,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    height: calc(var(--vh, 1vh) * 100);
+    height: calc(var(--vh, 1vh) * 80);
   }
 
 .landing_gallery &::-webkit-scrollbar {
@@ -465,9 +465,9 @@
 }
 
   .main_pic_block {
-   width: calc(var(--vw, 1vw) * 85);
+   width: calc(var(--vw, 1vw) * 70);
    display: inline-block;
-   height: 80%;
+   height: 90%;
    background-size: cover;
    background-position: center center;
    margin: 0vw 6.5vw 0 6.5vw
