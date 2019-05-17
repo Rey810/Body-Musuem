@@ -47,66 +47,98 @@ body {
 
 .cof_image {
     background-color: #004489;
+    background-image: url(Media/cofshop/kons_1-min.JPG);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
     url(Media/cofshop/kons_1-min.JPG);
-    background-image: url(Media/cofshop/kons_1-min.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
+    url(Media/cofshop/kons_1-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
+    url(Media/cofshop/kons_1-min.JPG);
     background-position: center center;
 }
 
 .com_image {
     background-color: #66FCF1;
+    background-image: url(Media/com/pam_2-min.JPG);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
         url(Media/com/pam_2-min.JPG);
-        background-image: url(Media/com/pam_2-min.JPG);
-        background-position: bottom center;
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
+        url(Media/com/pam_2-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
+        url(Media/com/pam_2-min.JPG);
+    background-position: bottom center;
 }
 
 .party_image {
     background-color:  #565656;
+    background-image: url(Media/party/jo_4-min.JPG);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
         url(Media/party/jo_4-min.JPG);
-        background-image: url(Media/party/jo_4-min.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
+        url(Media/party/jo_4-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
+        url(Media/party/jo_4-min.JPG);
         background-position: center center;
 }
 
 .film_image {
     background-color: #D79922;
+    background-image: url(Media/movie/ning_5-min.JPG);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
         url(Media/movie/ning_5-min.JPG);
-        background-image: url(Media/movie/ning_5-min.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
+        url(Media/movie/ning_5-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
+        url(Media/movie/ning_5-min.JPG);
         background-position: center center;
 }
 
 .work_image {
     background-color: #F13C20;
+    background-image: url(Media/wrk/pd_3-min.JPG);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
         url(Media/wrk/pd_3-min.JPG);
-         background-image: url(Media/wrk/pd_3-min.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
+        url(Media/wrk/pd_3-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
+        url(Media/wrk/pd_3-min.JPG);
         background-position: center center;
 }
 
 .main_image {
     background-color: #a77550;
+    background-image: url(Media/new_header.jpg);
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(Media/new_header.jpg);
-    background-image: url(Media/new_header.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(Media/new_header.jpg);
+    background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(Media/new_header.jpg);
     background-position: bottom center;
 }
 
 .perf_image {
     background-color: #55058657;
+    background-image: url(Media/header_perform.jpg);
     background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.37), #55058657, rgba(0, 0, 0, 0.9)),
     url(Media/header_perform.jpg);
-    background-image: url(Media/header_perform.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(242, 243, 249, 0.37), #55058657, rgba(0, 0, 0, 0.9)),
+    url(Media/header_perform.jpg);
+    background-image: -moz-linear-gradient(to bottom, rgba(242, 243, 249, 0.37), #55058657, rgba(0, 0, 0, 0.9)),
+    url(Media/header_perform.jpg);
     background-position: 23% center;
 }
 
 
 .learn_more_image {
     background-color: #977454d4;
+    background-image: url(Media/header_learn.jpg);
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.23), #3222af8c, rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
-    background-image: url(Media/header_learn.jpg);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.23), #3222af8c, rgb(6, 6, 6)),
+    url(Media/header_learn.jpg);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.23), #3222af8c, rgb(6, 6, 6)),
+    url(Media/header_learn.jpg);
     background-position: bottom center;
 }
 
