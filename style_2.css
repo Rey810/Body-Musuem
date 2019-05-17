@@ -30,15 +30,18 @@ body {
 }
 
 .fav_image {
-    background-color: blue;
-    background-image: url(Media/header_perform.jpg);
+    background-color: #E4599A;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, 0.7)),
+    url(Media/fav/jo_fav-min.jpg);
     background-position: center center;
+    background-image: url(Media/fav/jo_fav-min.jpg);
 }
 
 .cof_image {
     background-color: #004489;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #0044899c, rgb(24, 24, 24, 0.9)),
     url(Media/cofshop/kons_1-min.JPG);
+    background-image: url(Media/cofshop/kons_1-min.JPG);
     background-position: center center;
 }
 
@@ -46,6 +49,7 @@ body {
     background-color: #66FCF1;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #66fcf191, rgb(24, 24, 24, 0.9)),
         url(Media/com/pam_2-min.JPG);
+        background-image: url(Media/com/pam_2-min.JPG);
         background-position: bottom center;
 }
 
@@ -53,6 +57,7 @@ body {
     background-color:  #565656;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #565656cc, rgb(24, 24, 24, 0.9)),
         url(Media/party/jo_4-min.JPG);
+        background-image: url(Media/party/jo_4-min.JPG);
         background-position: center center;
 }
 
@@ -60,6 +65,7 @@ body {
     background-color: #D79922;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #D79922a1, rgb(24, 24, 24, 0.9)),
         url(Media/movie/ning_5-min.JPG);
+        background-image: url(Media/movie/ning_5-min.JPG);
         background-position: center center;
 }
 
@@ -67,6 +73,7 @@ body {
     background-color: #F13C20;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #f13c2091, rgb(24, 24, 24, 0.9)),
         url(Media/wrk/pd_3-min.JPG);
+         background-image: url(Media/wrk/pd_3-min.JPG);
         background-position: center center;
 }
 
@@ -74,6 +81,7 @@ body {
     background-color: #a77550;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(Media/new_header.jpg);
+    background-image: url(Media/new_header.jpg);
     background-position: bottom center;
 }
 
@@ -81,6 +89,7 @@ body {
     background-color: #55058657;
     background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.37), #55058657, rgba(0, 0, 0, 0.9)),
     url(Media/header_perform.jpg);
+    background-image: url(Media/header_perform.jpg);
     background-position: 23% center;
 }
 
@@ -89,6 +98,7 @@ body {
     background-color: #977454d4;
     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.23), #3222af8c, rgb(6, 6, 6)),
     url(Media/header_learn.jpg);
+    background-image: url(Media/header_learn.jpg);
     background-position: bottom center;
 }
 
@@ -604,7 +614,7 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     -moz-transition: ease 0.4s all;
 }
 
-/* .main_pic_block#landfav {
+.main_pic_block#landfav {
     filter: drop-shadow(0.3em 0.3em 0.08em black);
     -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
     -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
@@ -638,7 +648,7 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
    filter: drop-shadow(0.3em 0.3em 0.08em black);
    -moz-filter: drop-shadow(0.3em 0.3em 0.08em black);
    -o-filter: drop-shadow(0.3em 0.3em 0.08em black);
-} */
+}
 
 .pic_block img {
     border-radius: 7%;
