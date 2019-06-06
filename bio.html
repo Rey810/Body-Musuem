@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <title>BM | BIO</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset='utf-8'>
+   <meta name="theme-color" content="#3222af8c">
+   <link href='style_2.css' rel="stylesheet">
+   <link href='nav_bar_2.css' rel='stylesheet'>
+   <link rel="stylesheet" href="media_queries.css">
+   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
+  <link rel="icon" href="Media/BM.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+  <script type="text/javascript" src="nav_bar.js" async></script>
+  <script type="text/javascript" src="scroll_fix.js" async></script>
+
+  <!-- <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
+  <script async src="//static.getclicky.com/js"></script> -->
+
+</head>
+
+<body>
+
+
+    <div class='bio_image gallery_banner' id='wrap'>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html" title='Home' class='top_home' id='fav_image'>BODY<br>MUSEUM</a>
+            <a href="gallery_fav.html" title='Galleries'>Galleries</a>
+            <a href="performance.html" title='Performance'>Performance</a>
+            <a href="learn_more.html" title='Learn More'>About</a>
+            <a href="bio.html" title='Bio' id="active">Bio</a>
+            <a href="javascript:void(0);" class="navicon-button icon " id='menu_icon_parent' onclick="myFunction()">
+                <div class="navicon" id='menu_icon' class="top_icon fa fa-bars"></div>
+            </a>
+        </div>
+
+    <div class='gallery_title_area'>
+        <div class='gallery_title_text'>
+
+
+            <h2 class='movie_title' id="h2">
+                Meet the Team</h2>
+            <p>Behind the Project</p>
+
+        </div>
+    </div>
+    <div class='arrow_icon'><i style='cursor: pointer;' class="fa fa-angle-double-down" id='angle_down'></i></div>
+    </div>
+
+    <nav class="gallery_symbols" id="main_nav">
+        <ul class='symbol_list film'>
+            <li class='logo' id='main_logo' style='cursor: pointer;'>
+                <div class='img_logo_parent' style='color: white;'><img id='img_logo' src="Media/icon.png"></div>
+            </li>
+        </ul>
+    </nav>
+
+    <section class='main_galleries'>
+        <div class='team_members_container'>
+            <img class='val_bio_pic' alt='Valentina Bio Pic' src='Media/val_profile.jpg'>            
+            <div class='val_member_info'>
+                <div class='val_bio_name'><h3>Valentina Polcovnicova</h3></div>
+                <div class='val_bio_title'><h4>Founder</h4></div>
+                <div class='val_bio_describe'>Valentina Polcovnicova (born in Moldova, 1991) comes from a diverse
+                    cultural background. Her
+                    mother is a representative of a small Bulgarian minority community of Moldova, while her father
+                    is Russian. From as early as childhood, Valentina has been exposed to a mixture of traditions and
+                    got involved in folk dancing present in Moldova. During her university years in Moscow,
+                    Valentina became interested in theater dance and visual art forms, both of which has become her
+                    extra-curriculum activities.<br><br>
+                    Valentina obtained her MA in Linguistics and Translation Studies (RSUH, Moscow, Russia -
+                    2013). Valentina also had the opportunity to complete a course on Anthropology and Modern
+                    Dance at Beloit College (WI, USA -2012) and a semester of Ethno-Cultural Diversity and Visual
+                    Arts in KU Leuven (Belgium – 2014). Those courses further developed her curiosity about
+                    cultures and a move to China allowed for more of the same.<br><br>
+                    Valentina lived and taught dance in Hangzhou, China, for three years. She became an active
+                    member of the Contemporary dance community there by staging performances and organizing
+                    workshops. At the same time, she learnt about Chinese arts and local practices, such as
+                    calligraphy and Qi dance.<br><br>
+                    All of Valentina’s travelling let to an increased fascination of cultural diversity, particularly
+                    dance practices that exist in the world. She decided to learn more about dance anthropology and
+                    cultural management and was accepted into the Choreomundus Master program in Dance
+                    Knowledge, Practice and Heritage. She is currently finishing her dissertation on contemporary
+                    dance festivals.
+                    </div>
+                </div>
+
+            <img class='rey_bio_pic' alt='Rey Bio Pic' src='Media/rey_profile.jpg'>
+            <div class='rey_member_info'>
+                <div class='rey_bio_name'>
+                    <h3>Reynard <br class='mobile_visible'>van den Berg</h3>
+                </div>
+                <div class='rey_bio_title'>
+                    <h4>Developer</h4>
+                </div>
+                <div class='rey_bio_describe'>Rey comes from a scientific background with a formal education in Getics and Psychology with a year spent dabbling in Bioinformatics. 
+                    He has also plyed his trade as an English teacher abroad and loved being able to travel all over the world due to his abundance of free time.
+                        <br><br>
+                        Rey has a love of ice cream , dogs, and walks on the beach. <br>Currently, he's trying his hand at web development - this is his first project! <br>Good for you, Rey. </div>
+                </div>
+            </div>
+        </section>
+    </body>
+
+
+    <footer>
+        <div class="contact" id="contact">
+            <i class="white_icon fa fa-instagram"></i>
+            <a href="https://www.instagram.com/body_museum/">body_museum</a>
+            &#x2706 +44 7435 584660
+            <br>
+            &#x2709 valentinapolc@gmail.com
+        </div>
+        <div class="copyright">
+            Project by Valentina Polcovnicova
+            <br>
+            <br>
+            &copy Body Museum 2019 | All Rights Reserved |
+            <br>
+            <br>
+            Built by <a id='insta' href='https://github.com/Rey810'>Rey van den Berg</a>
+
+        </div>
+    </footer>
+
+    </html>

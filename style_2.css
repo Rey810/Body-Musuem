@@ -153,6 +153,18 @@ body {
     background-position: bottom center;
 }
 
+.bio_image {
+    background-color: #977454d4;
+    background-image: url(Media/header_bio.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+        url(Media/header_bio.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+        url(Media/header_bio.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+        url(Media/header_bio.JPG);
+    background-position: top center;
+}
+
 
 
 
@@ -731,7 +743,7 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     color: #b3b3b3;
     font-family: Arial;
     text-align: left;
-    line-height: 3.5vh;
+    line-height: 1.5em;
     letter-spacing: 0.015em;
     font-size: 0.9em;
 }
@@ -790,6 +802,95 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     padding: 2vw;
     border-radius: 1vw;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Bio Page*/
+.team_members_container {
+    padding-top: 2em;
+    display: grid;
+    color: #b3b3b3;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+.val_bio_pic {
+    border-radius: 100%;
+    border: 0.3em solid #b950ec;
+    margin: 1em 0;
+}
+
+.val_member_info {
+    padding-left: 2em;
+}
+
+.val_bio_name h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.val_bio_title h4 {
+    color: #b950ec;
+    font-size: 1.8em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.val_bio_describe {
+    padding-right: 1em;
+}
+
+.rey_bio_describe {
+    padding-right: 1em;
+}
+
+
+
+.rey_bio_pic {
+    border-radius: 100%;
+    border: 0.3em solid #00A86B;
+    margin: 1em 0;
+}
+
+.rey_member_info {
+    padding-left: 2em;
+}
+
+.rey_bio_name h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.rey_bio_title h4 {
+    color: #00A86B;
+    font-size: 1.8em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.mobile_visible {
+    display: none
+    ;
+}
+
+
+
+
+
 
 
 
