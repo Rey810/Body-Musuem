@@ -5,6 +5,11 @@
 
 @media (min-width: 1281px) {
 
+   /*landing page*/
+  .pic_block h3 {
+    font-size: 2.5em;
+  }
+
   .team_members_container {
     grid-template-columns:
       0.5fr 1fr 1fr 1fr 1fr 0.5fr;
@@ -144,6 +149,11 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
+
+  /*landing page*/
+  .pic_block h3 {
+    font-size: 2.5em;
+  }
 
     .gallery_banner {
       background-attachment: fixed;
@@ -816,7 +826,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
   }
 
   #landcof .gal_name {
-    border-top: 0.3em solid rgba(0, 68, 137, 0.612);
+    border-top: 0.3em solid rgba(0, 68, 137);
   }
 
   #landmovie .gal_name {
