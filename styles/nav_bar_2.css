@@ -1,0 +1,295 @@
+/*nav_bar on learn_more.html page*/
+@media screen and (max-width: 800px) {
+  .topnav {
+    padding: 5vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .topnav {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3vw 0 1vw;
+  }
+  .main_image .topnav a {
+    color: white;
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.1);
+  }
+
+  .main_image .topnav {
+    justify-content: flex-end;
+  }
+}
+
+
+/* When the screen is less than 800 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .top_icon fa {
+    color: black  !important;
+  }
+
+  .top_title {
+    position: absolute;
+    top: 5vw;
+    right: 33vw;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+  .topnav.responsive {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    background: rgb(0, 0, 0, 0.4);
+
+ 
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 5vw;
+    top: 5vw;
+  }
+  .topnav.responsive a:not(:first-child){
+    flex: 1;
+    display: flex;
+    float: none;
+    text-align: left;
+    font-size: calc(var(--vh, 1vh) * 3);
+  }
+
+  .topnav.responsive a:first-child {
+    display: none;
+  }
+}
+
+/*Styling for banner on mobile*/
+
+
+
+
+.top_title {
+  display: inline-block;
+  color: white      !important;
+  font-weight: 900  !important;
+  width
+}
+
+
+
+
+
+
+/* Add a black background color to the top navigation */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 1vw 0;
+  text-decoration: none;
+  font-size: calc(var(--vh, 1vh) * 5);
+  padding: 0.5vw 0.8vw;
+  font-weight: 900;
+  transform: scale(0.97);
+}
+
+.movie_links {
+  text-shadow: 1px 0.3px black;
+}
+
+ .topnav a:hover:not(:first-child) {
+   /*.main_image append as prefix when undoing commented-out sections here and on line 148*/
+    border-bottom: 0.2vw solid white;
+    /* transform: scale(0.97)  !important;
+    filter: none !important;
+    transition: none !important; */
+  }
+
+
+#menu_icon_parent {
+  font-size: calc(var(--vh, 1vh) * 4);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+#menu_icon {
+  color: black;
+  background-color: none;
+  text-decoration: none;
+}
+
+
+a::after {
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.top_home {
+  transform: scale(0.97);
+  font-weight: 900;
+  text-align: left    !important;
+  line-height: 79%;
+  color: black      !important;
+}
+
+
+
+.top_home:hover {
+  transform: scale(1);
+}
+
+/* Change the color of links on hover */
+/* .topnav a:hover:not(:first-child) {
+  filter: drop-shadow(0 0 0.15em black);
+  transform: scale(1.1);
+  transition: ease 0.2s all;
+  -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
+} */
+
+/* Add an active class to highlight the current page */
+#active {
+  /* filter: drop-shadow(0 0 0.15em black);
+  transform: scale(1.2); */
+  transform: scale(1.1);
+  border-bottom: 0.2vw solid white;
+  filter: drop-shadow(0 1px 0.7px black);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+/*Funky menu bar (navicon)*/
+
+.navicon-button {
+  display: inline-block;
+  position: relative;
+  padding: 2.0625rem 1.5rem !important;
+  transition: 0.25s !important;
+  -webkit-transition: 0.25s !important;
+  -o-transition: 0.25s !important;
+  -moz-transition: 0.25s !important;
+  cursor: pointer;
+  user-select: none !important;
+  opacity: .8 !important;
+  transform: scale(1) !important;
+}
+
+.navicon-button .navicon:before,
+.navicon-button .navicon:after {
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  -moz-transition: 0.25s;
+}
+
+.navicon-button:hover {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
+  opacity: 1;
+}
+
+.navicon-button:hover .navicon:before,
+.navicon-button:hover .navicon:after {
+  transition: 0.25s;
+  -webkit-transition: 0.25s;
+  -o-transition: 0.25s;
+  -moz-transition: 0.25s;
+}
+
+
+
+.navicon {
+  position: absolute;
+  top: 4vw;
+  width: 1.1em;
+  height: .3125rem;
+  background: #FFF;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
+
+  border-radius: 2.5rem;
+}
+
+#menu_icon_parent {
+filter: none !important;
+}
+
+.navicon:before,
+.navicon:after {
+  display: block;
+  content: "";
+  height: .3125rem;
+  width: 1rem;
+  background: #FFF;
+  position: absolute;
+  z-index: -1;
+  transition: 0.5s 0.25s;
+  -webkit-transition: 0.5s 0.25s;
+  -o-transition: 0.5s 0.25s;
+  -moz-transition: 0.5s 0.25s;
+  border-radius: 1rem !important;
+}
+
+.navicon:before {
+  top: .625rem;
+}
+
+.navicon:after {
+  top: -.625rem;
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s
+}
+
+
+/* × and + */
+.open.plus .navicon,
+.open.x .navicon {
+  background: transparent;
+}
+
+.open.plus .navicon:before,
+.open.x .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.open.plus .navicon:after,
+.open.x .navicon:after {
+  transform: rotate(45deg);
+}
+
+.open.plus {
+  transform: scale(0.75) rotate(45deg);
+}
