@@ -32,6 +32,17 @@ body {
     -moz-transition: ease 0.5s ease;
 }
 
+.land_bg_gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: linear-gradient(to right top, #1963ab, #3364af, #4665b3, #5665b7, #6665b9, #7765bb, #8765bb, #9664bb, #aa63b9, #bc61b6, #ce60b1, #de5fab);
+    opacity: 0.7;
+}
+
 .gallery_banner {
     display: flex;
     flex-direction: column;
@@ -117,19 +128,11 @@ body {
 }
 
 .main_image {
-    background-color: #a77550;
     background-image: url(../Media/new_header.jpg);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../Media/new_header.jpg);
-    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../Media/new_header.jpg);
-    background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(../Media/new_header.jpg);
     background-position: bottom center;
 }
 
 .perf_image {
-    background-color: #55058657;
     background-image: url(../Media/header_perform.jpg);
     background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.22), rgba(85, 5, 134, 0.341), rgba(0, 0, 0, 0.52)),
     url(../Media/header_perform.jpg);
@@ -230,6 +233,7 @@ body {
     flex-direction: column;
     justify-content: center;
     top: 50%;
+    z-index: 1;
 }
 
 
@@ -738,8 +742,7 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     top: 0%;
     background: rgba(0, 0, 0, 0.7);
     color: white;
-    font-weight: 500;
-    font-style: italic;
+    font-weight: 700;
     padding: 0 0.04em;
     font-size: 3em;
     margin: 0;
@@ -850,7 +853,6 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 .val_member_info {
     padding-left: 2em;
 }
-
 .val_bio_name h3 {
     font-size: 2em;
     margin-bottom: 0;

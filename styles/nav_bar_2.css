@@ -14,7 +14,7 @@
   }
   .main_image .topnav a {
     color: white;
-    border-bottom: 0.2vw solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0.2vw solid rgba(0, 0, 0, 0);
   }
 
   .main_image .topnav {

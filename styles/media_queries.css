@@ -65,7 +65,22 @@
 
   .gallery_title_area {
       line-height: 2.25em;
-      align-items: center;
+      text-align: center;
+      text-align: -moz-center;
+  }
+
+  #land_describe {
+    z-index: 3;
+    color: black;
+    opacity: 0.85;
+    letter-spacing: 0.55em;
+    text-transform: uppercase;
+    background: #de5fab;
+    width: max-content;
+    padding: 0.3em 0.3em 0.3em 0.8em;
+    position: relative;
+    font-size: 1.3em;
+    border-radius: 2em;
   }
 
    li.logo {
@@ -80,8 +95,11 @@
   }
 
   #landing_title {
-    margin-bottom: 7.5vw;
-    font-size: 6em;
+    font-size: 17em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: relative;
+    top: 50%;
+    bottom: 50%;
   }
 
   #img_logo {
@@ -197,6 +215,8 @@
 
     .gallery_title_text>* {
       font-size: 1.5em;
+      text-align: -moz-center;
+      text-align: center;
     }
 
 
@@ -536,6 +556,21 @@
       .gallery_banner {
         background-attachment: scroll;
       }
+
+      .land_bg_gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        background-image: linear-gradient(to right top, #1963ab, #3364af, #4665b3, #5665b7, #6665b9, #7765bb, #8765bb, #9664bb, #aa63b9, #bc61b6, #ce60b1, #de5fab);
+        opacity: 0.5;
+      }
+
+       #land_describe {
+         display: none;
+       }
 
       .mobile_image {
         background-color: black;
