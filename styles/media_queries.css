@@ -74,11 +74,11 @@
     z-index: 3;
     color: black;
     opacity: 0.85;
-    letter-spacing: 0.55em;
+    letter-spacing: 1.55em;
     text-transform: uppercase;
     background: #de5fab;
     width: max-content;
-    padding: 0.3em 0.3em 0.3em 0.8em;
+    padding: 0.3em 0.3em 0.3em 1.5em;
     position: relative;
     font-size: 1.3em;
     border-radius: 2em;
