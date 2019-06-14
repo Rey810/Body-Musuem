@@ -162,7 +162,8 @@ body {
         url(../Media/header_bio.JPG);
     background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(3, 3, 3, 0.62), rgb(6, 6, 6)),
         url(../Media/header_bio.JPG);
-    background-position: top center;
+    background-position-y: 20%;
+    background-position-x: 37%;
 }
 
 
