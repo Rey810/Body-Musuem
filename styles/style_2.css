@@ -742,7 +742,6 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 .text_body p {
     color: hsla(0, 0%, 100%, 0.76);
     text-align: left;
-    font-size: 0.9em;
     font-style: italic;
     font-weight: 400;
 }
