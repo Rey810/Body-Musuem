@@ -156,11 +156,11 @@ body {
 .bio_image {
     background-color: #977454d4;
     background-image: url(../Media/header_bio.JPG);
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(3, 3, 3, 0.62), rgb(6, 6, 6)),
         url(../Media/header_bio.JPG);
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(3, 3, 3, 0.62), rgb(6, 6, 6)),
         url(../Media/header_bio.JPG);
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(3, 3, 3, 0.62), rgb(6, 6, 6)),
         url(../Media/header_bio.JPG);
     background-position: top center;
 }
@@ -236,6 +236,7 @@ body {
     margin: 0;
     color: white;
     font-size: 1.5em;
+    font-family: 'Alegreya';
 }
 
 .act_fav_title {
@@ -299,6 +300,10 @@ body {
 .cof_title {
     color: #004489;
     filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.bio_title {
+    color: #229ED7;
 }
 
 #act_colour {
@@ -737,12 +742,13 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
     padding: 0 0.04em;
     font-size: 3em;
     margin: 0;
+    font-family: 'Alegreya';
+    text-transform: uppercase;
 }
 
 .text_body p {
     color: hsla(0, 0%, 100%, 0.76);
     text-align: left;
-    font-style: italic;
     font-weight: 400;
     font-size: 1.1em;
 }
@@ -836,7 +842,7 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 
 .val_bio_pic {
     border-radius: 100%;
-    border: 0.3em solid #b950ec;
+    border: 0.3em solid #229ED7;
     margin: 1em 0;
 }
 
@@ -851,25 +857,38 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 }
 
 .val_bio_title h4 {
-    color: #b950ec;
+    color: #229ED7;
     font-size: 1.8em;
     margin-top: 0;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .val_bio_describe {
     padding-right: 1em;
+    font-weight: 500;
 }
 
 .rey_bio_describe {
     padding-right: 1em;
+    font-weight: 500;
+}
+
+.rey_bio_describe a {
+    text-decoration: none;
+    color: #229ED7;
+}
+
+.rey_bio_describe a:hover{
+    text-decoration: underline;
+    text-decoration-color: #229ED7;
 }
 
 
 
 .rey_bio_pic {
     border-radius: 100%;
-    border: 0.3em solid #00A86B;
+    border: 0.3em solid #229ED7;
     margin: 1em 0;
 }
 
@@ -884,10 +903,11 @@ li:hover i:not(:first-child), li:hover:not(:first-child) {
 }
 
 .rey_bio_title h4 {
-    color: #00A86B;
+    color: #229ED7;
     font-size: 1.8em;
     margin-top: 0;
     text-transform: uppercase;
+    font-weight: 400;
 }
 
 .mobile_visible {

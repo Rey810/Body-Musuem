@@ -674,7 +674,7 @@
   margin: 1em;
 }
 
-.pic_block  h3 {
+.pic_block h3 {
   text-align: center;
   top: 0%;
   color: white;
@@ -682,10 +682,8 @@
   padding: 0 0.04em;
   font-size: 2em;
   margin: 0;
-  letter-spacing: 0.1em;
   font-style: normal;
   padding: 0.6em 0;
-  text-transform: uppercase;
 }
 
 .gal_name {
