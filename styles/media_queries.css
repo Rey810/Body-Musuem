@@ -66,6 +66,7 @@
   .gallery_title_area {
       line-height: 2.25em;
       text-align: center;
+      text-emphasis: -webkit-center;
       text-align: -moz-center;
   }
 
