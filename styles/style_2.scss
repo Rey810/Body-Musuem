@@ -1,0 +1,154 @@
+@import './variables';
+@import './_galleryTitleAreas';
+@import './iconBar';
+@import './galleries';
+@import './footer';
+
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #181818;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+}
+
+/* IE 10+ */
+/* WebKit */
+html ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
+body {
+    margin: 0;
+    transition: all 0.5s ease;
+    -webkit-transition: ease 0.5s ease;
+    -o-transition: ease 0.5s ease;
+    -moz-transition: ease 0.5s ease;
+}
+
+
+
+
+
+
+.perf_colours {
+        color: #f7ec5e !important;
+}
+
+.val_colour {
+    color: #b950ec !important;
+}
+
+.large_screen_colour {
+    color: #004489;
+}
+
+
+#act_colour {
+    color: black;
+}
+
+
+/*Performance page*/
+.text_body h3 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+
+.text_body h4 {
+    color: #b3b3b3;
+    text-decoration: overline;
+}
+
+/*Performance and about page*/
+.reference {
+    font-size: 0.8em !important;
+}
+
+
+/*Bio Page*/
+.team_members_container {
+    padding-top: 2em;
+    display: grid;
+    color: #b3b3b3;
+    align-items: center;
+    margin-bottom: 7em;
+}
+
+.val_bio_pic {
+    border-radius: 100%;
+    border: 0.3em solid $bioMainColor;
+    margin: 1em 0;
+}
+
+.val_member_info {
+    padding-left: 2em;
+}
+.val_bio_name h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.val_bio_title h4 {
+    color: $bioMainColor;
+    font-size: 1.8em;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.val_bio_describe {
+    padding-right: 1em;
+    font-weight: 500;
+}
+
+.rey_bio_describe {
+    padding-right: 1em;
+    font-weight: 500;
+}
+
+.rey_bio_describe a {
+    text-decoration: none;
+    color: $bioMainColor;
+}
+
+.rey_bio_describe a:hover{
+    text-decoration: underline;
+    text-decoration-color: $bioMainColor;
+}
+
+
+
+.rey_bio_pic {
+    border-radius: 100%;
+    border: 0.3em solid $bioMainColor;
+    margin: 1em 0;
+}
+
+.rey_member_info {
+    padding-left: 2em;
+}
+
+.rey_bio_name h3 {
+    font-size: 2em;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.rey_bio_title h4 {
+    color: $bioMainColor;
+    font-size: 1.8em;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.mobile_visible {
+    display: none;
+}

@@ -1,0 +1,85 @@
+/*Footer*/
+footer {
+    padding-top: 10vh;
+    background-color: black;
+    color: #b3b3b3;
+    font-family: Arial;
+    text-align: center;
+    position: relative;
+}
+
+.copyright {
+    font-size: 0.75em;
+    line-height: 0.75em;
+    padding: 0 0 1em 1em;
+    left: 0;
+    text-align: left;
+}
+
+.contact {
+    padding: 4em 0 3em 0;
+    line-height: 1.7em;
+    justify-content: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    &:hover{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+#insta {
+    color: #b3b3b3;
+}
+
+
+.fa {
+    #white_icon {
+        color: red;
+    }
+    #fav_icon {
+        color: $favColor;
+    }
+    #work_icon {
+        color: $workColor
+    }
+    #com_icon {
+        color: $comColor;
+    }
+    #party_icon {
+        color: $partyColor;
+    }
+    #film_icon {
+        color: $filmColor;
+    }
+    #cof_icon {
+        color: $cofColor;
+    }
+}
+
+.fav_icon {
+  color: $favColor;
+}
+
+.work_icon {
+  color: $workColor
+}
+
+.com_icon {
+    color: $comColor;
+}
+
+.party_icon {
+  color: $partyColor;
+}
+
+.film_icon {
+  color: $filmColor;
+}
+
+.cof_icon {
+  color: $cofColor;
+}

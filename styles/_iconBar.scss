@@ -1,0 +1,177 @@
+/*gallery icon nav bar*/
+
+@import './mixins';
+
+nav {
+    background: #181818;
+    top: 0;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+body.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    @include flexCenter(column);
+
+    flex: 1;
+    text-align: center;
+}
+
+nav li a:hover .fa {
+    color: black;
+}
+
+li.logo {
+    max-width: 0;
+    overflow: hidden;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+}
+
+li.logo a {
+    color: black;
+}
+
+.fixed-nav li.logo {
+    max-width: 500px;
+}
+
+.fixed-nav #main_logo {
+    max-width: 100%;
+}
+
+nav a {
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    align-items: center;
+}
+
+.film_active {
+    color: $filmColor;
+}
+
+ .fav_active {
+     background-color: $favColor;
+ }
+
+ .cof_active {
+     background-color: $cofColor;
+ }
+
+ .com_active {
+     background-color: $comColor;
+ }
+
+ .work_active {
+     background-color: $workColor;
+ }
+
+ .party_active {
+     background-color: $partyColor;
+ }
+
+ .film_active {
+     background-color: $filmColor;
+ }
+
+
+.fav li a i {
+    color: $favColor;
+}
+
+.cof li a i {
+    color: $cofColor;
+}
+
+.com li a i {
+    color: $comColor;
+}
+
+.work li a i {
+    color: $workColor;
+}
+
+.party li a i {
+    color: $partyColor;
+}
+
+.film li a i {
+    color: $filmColor;
+}
+
+
+  .fav_colour:hover {
+      background-color: $favColor
+  }
+
+ .cof_colour:hover {
+    background-color: $cofColor;
+ }
+
+ .com_colour:hover {
+     background-color: $comColor;
+ }
+
+ .work_colour:hover {
+     background-color: $workColor;
+ }
+
+ .party_colour:hover {
+     background-color: $partyColor;
+ }
+
+ .film_colour:hover {
+     background-color: $filmColor;
+ }
+
+
+  .fa {
+     color: #b3b3b3;
+ }
+
+.img_logo_parent {
+    display: flex;
+}
+
+#img_logo {
+    height: 1.2em;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}
+
+#logo {
+    transition: ease-in 0.3s all;
+}
+
+.symbol {
+    flex: 1;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+li:hover i:not(:first-child), li:hover:not(:first-child) {
+    color: black;
+}
+
+#logo:hover {
+    color: white;
+}

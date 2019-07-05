@@ -1,0 +1,232 @@
+/*various gallery title areas*/
+@import './mixins';
+
+.gallery_title_area {
+    @include flexCenter(column);
+
+    flex: 1;
+    top: 50%;
+    z-index: 1;
+}
+
+
+.gallery_title_text>* {
+    margin: 0;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Alegreya';
+}
+
+.act_fav_title {
+    font-size: 4em;
+    filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.perf_title, .learn_more_title {
+    font-size: 5em;
+     filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.perf_title {
+    color: #f7ec5e;
+}
+
+.main_title {
+    font-size: 5em;
+    color: black;
+    filter: drop-shadow(0 0.05em 0.2em white);
+}
+
+.exp_main_title {
+    font-size: 5em;
+    color: white;
+    /* filter: drop-shadow(0.1em 0.0em 0.6em white); */
+}
+
+.act_title {
+    font-size: 4em;
+    filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.fav_title {
+    color: $favTitleColor;
+}
+
+.com_title {
+    color: $comTitleColor;
+    filter: drop-shadow(0 0 0.3em black);
+}
+
+.cof_title {
+    color: $cofTitleColor;
+    filter: drop-shadow(0 0.05em 0.2em black);
+}
+
+.work_title {
+    color: $workTitleColor;
+    filter: drop-shadow(0 0 0.3em black);
+}
+
+.movie_title {
+    filter: drop-shadow(0 0 0.3em black);
+    color: $filmTitleColor;
+}
+
+.party_title {
+    filter: drop-shadow(0 0 0.3em black);
+}
+
+.bio_title {
+    color: $bioTitleColor;
+}
+
+.land_bg_gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-image: linear-gradient(to right top, #1963ab, #3364af, #4665b3, #5665b7, #6665b9, #7765bb, #8765bb, #9664bb, #aa63b9, #bc61b6, #ce60b1, #de5fab);
+    opacity: 0.7;
+}
+
+.gallery_banner {
+    display: flex;
+    flex-direction: column;
+    height: calc(var(--vh, 1vh) * 100);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.fav_image {
+    background-color: $favColor;
+    /*background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, )),
+    url(../Media/fav/jo_fav-min.jpg); */
+    /* background: -webkit-gradient(linear, to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.47), rgb(24, 24, 24, )),
+    url(../Media/fav/jo_fav-min.jpg); */
+    background-image: url("../Media/fav/jo_fav-min.jpg");
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.45), rgba(24, 24, 24, 0.52)),
+    url("../Media/fav/jo_fav-min.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.45), rgba(24, 24, 24, 0.52)),
+    url("../Media/fav/jo_fav-min.jpg");
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(137, 29, 111, 0.45), rgba(24, 24, 24, 0.52)),
+    url("../Media/fav/jo_fav-min.jpg");
+    background-position: center center;
+}
+
+.cof_image {
+    background-color: $cofColor;
+    background-image: url(../Media/cofshop/kons_1-header.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(0, 68, 137, 0.612), rgba(24, 24, 24, 0.52)),
+    url(../Media/cofshop/kons_1-header.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgba(24, 24, 24, 0.52)),
+    url(../Media/cofshop/kons_1-header.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(0, 68, 137, 0.612), rgba(24, 24, 24, 0.52)),
+    url(../Media/cofshop/kons_1-header.JPG);
+    background-position: center center;
+}
+
+.com_image {
+    background-color: $comColor;
+    background-image: url(../Media/com/pam_2-min.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgba(24, 24, 24, 0.52)),
+        url(../Media/com/pam_2-min.JPG);
+    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgba(24, 24, 24, 0.52)),
+        url(../Media/com/pam_2-min.JPG);
+    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(102, 252, 241, 0.569), rgba(24, 24, 24, 0.52)),
+        url(../Media/com/pam_2-min.JPG);
+    background-position: bottom center;
+}
+
+.party_image {
+    background-color:  $partyColor;
+    background-image: url(../Media/party/jo_4-min.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(86, 86, 86, 0.8), rgba(24, 24, 24, 0.52)),
+        url(../Media/party/jo_4-min.JPG);
+        background-position: center center;
+}
+
+.film_image {
+    background-color: $filmColor;
+    background-image: url(../Media/movie/ning_5-min.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(215, 153, 34, 0.631), rgba(24, 24, 24, 0.52)),
+        url(../Media/movie/ning_5-min.JPG);
+        background-position: center center;
+}
+
+.work_image {
+    background-color: $workColor;
+    background-image: url(../Media/wrk/pd_3-header.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(241, 60, 32, 0.569), rgba(24, 24, 24, 0.52)),
+        url(../Media/wrk/pd_3-header.JPG);
+        background-position: center center;
+}
+
+.main_image {
+    background-image: url(../Media/new_header.jpg);
+    background-position: bottom center;
+}
+
+.perf_image {
+    background-image: url(../Media/header_perform.jpg);
+    background-image: linear-gradient(to bottom, rgba(242, 243, 249, 0.22), rgba(85, 5, 134, 0.341), rgba(0, 0, 0, 0.52)),
+    url(../Media/header_perform.jpg);
+    background-position: 23% center;
+}
+
+
+.learn_more_image {
+    background-color: #977454d4;
+    background-image: url(../Media/header_learn.jpg);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252,0.22), rgba(50, 34, 175, 0.549), rgb(6, 6, 6)),
+    url(../Media/header_learn.jpg);
+    background-position: bottom center;
+}
+
+.bio_image {
+    background-color: #977454d4;
+    background-image: url(../Media/header_bio.JPG);
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(3, 3, 3, 0.62), rgb(6, 6, 6)),
+        url(../Media/header_bio.JPG);
+    background-position-y: 20%;
+    background-position-x: 37%;
+}
+
+.arrow_icon{ 
+    font-size: 3EM;
+    width: 100%;
+    text-align: center;
+   }
+
+   #angle_down {
+           animation: bounce 1s infinite;
+           animation-timing-function: ease-in-out;
+           animation-delay: 1.5s;
+           &:hover {
+               animation-play-state: paused;
+           }
+   }
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(15%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+} 
+
+.arrow_icon i:hover {
+    filter: drop-shadow(0 0 0.1rem white);
+}
+
+.arrow_icon .fa {
+    color: white;
+}
