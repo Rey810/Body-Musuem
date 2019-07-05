@@ -338,20 +338,24 @@ li.logo a {
 }
 
 nav a {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 100%;
-  text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: white;
-  text-transform: uppercase;
-  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
 }
 
 .film_active {
@@ -730,9 +734,6 @@ body {
   margin: 0;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  -webkit-transition: ease 0.5s ease;
-  -o-transition: ease 0.5s ease;
-  -moz-transition: ease 0.5s ease;
 }
 
 .perf_colours {
@@ -780,7 +781,7 @@ body {
   margin-bottom: 7em;
 }
 
-.val_bio_pic {
+.val_bio_pic, .rey_bio_pic {
   border-radius: 100%;
   border: 0.3em solid #229ED7;
   margin: 1em 0;
@@ -790,7 +791,7 @@ body {
   padding-left: 2em;
 }
 
-.val_bio_name h3 {
+.val_bio_name h3, .rey_bio_name h3 {
   font-size: 2em;
   margin-bottom: 0;
   text-transform: uppercase;
@@ -804,12 +805,7 @@ body {
   font-weight: 400;
 }
 
-.val_bio_describe {
-  padding-right: 1em;
-  font-weight: 500;
-}
-
-.rey_bio_describe {
+.val_bio_describe, .rey_bio_describe {
   padding-right: 1em;
   font-weight: 500;
 }
@@ -826,27 +822,19 @@ body {
 }
 
 .rey_bio_pic {
-  border-radius: 100%;
   border: 0.3em solid #229ED7;
-  margin: 1em 0;
 }
 
 .rey_member_info {
   padding-left: 2em;
 }
 
-.rey_bio_name h3 {
-  font-size: 2em;
-  margin-bottom: 0;
-  text-transform: uppercase;
-}
-
 .rey_bio_title h4 {
-  color: #229ED7;
   font-size: 1.8em;
   margin-top: 0;
   text-transform: uppercase;
   font-weight: 400;
+  color: #229ED7;
 }
 
 .mobile_visible {

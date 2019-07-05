@@ -25,9 +25,6 @@ html ::-webkit-scrollbar {
 body {
     margin: 0;
     transition: all 0.5s ease;
-    -webkit-transition: ease 0.5s ease;
-    -o-transition: ease 0.5s ease;
-    -moz-transition: ease 0.5s ease;
 }
 
 
@@ -89,7 +86,8 @@ body {
 .val_member_info {
     padding-left: 2em;
 }
-.val_bio_name h3 {
+
+.val_bio_name h3, .rey_bio_name h3 {
     font-size: 2em;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -103,15 +101,11 @@ body {
     font-weight: 400;
 }
 
-.val_bio_describe {
+.val_bio_describe, .rey_bio_describe {
     padding-right: 1em;
     font-weight: 500;
 }
 
-.rey_bio_describe {
-    padding-right: 1em;
-    font-weight: 500;
-}
 
 .rey_bio_describe a {
     text-decoration: none;
@@ -126,28 +120,22 @@ body {
 
 
 .rey_bio_pic {
-    border-radius: 100%;
+    @extend .val_bio_pic;
     border: 0.3em solid $bioMainColor;
-    margin: 1em 0;
 }
 
 .rey_member_info {
     padding-left: 2em;
 }
 
-.rey_bio_name h3 {
-    font-size: 2em;
-    margin-bottom: 0;
-    text-transform: uppercase;
-}
-
 .rey_bio_title h4 {
-    color: $bioMainColor;
     font-size: 1.8em;
     margin-top: 0;
     text-transform: uppercase;
     font-weight: 400;
+    color: $bioMainColor;
 }
+
 
 .mobile_visible {
     display: none;
