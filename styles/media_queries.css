@@ -114,7 +114,7 @@
 
 
   .main_galleries h2 {
-    padding-top: 3vw;
+    margin-top: 8vw;
   }
 
   .pic_text_container {
@@ -636,7 +636,7 @@
   }
 
   #h2 {
-    font-size: 2.5em;
+    font-size: 2.3em;
     line-height: 1em;
   }
 
@@ -655,6 +655,11 @@
     font-size: 1.5em;
    padding: 5vw 0 5vw 0;
 
+  }
+
+  .cof_gallery_intro::before {
+    left: 1.4em;
+    right: 1.4em;
   }
 
    .gallery_title_text>* {
