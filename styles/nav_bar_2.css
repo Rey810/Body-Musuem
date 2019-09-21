@@ -9,12 +9,13 @@
   .topnav {
     align-items: flex-start;
     display: flex;
-    justify-content: space-between;
-    margin: 0 3vw 0 1vw;
+    justify-content: flex-end;
+    background: hsla(0, 0%, 0%, 0.9);
+    padding: 0 2em;
   }
   .main_image .topnav a {
     color: white;
-    border-bottom: 0.2vw solid rgba(0, 0, 0, 0);
+    border-bottom: 0.1vw solid rgba(0, 0, 0, 0);
   }
 
   .main_image .topnav {
@@ -108,7 +109,7 @@
 
  .topnav a:hover:not(:first-child) {
    /*.main_image append as prefix when undoing commented-out sections here and on line 148*/
-    border-bottom: 0.2vw solid white;
+    border-bottom: 0.1vw solid white;
     /* transform: scale(0.97)  !important;
     filter: none !important;
     transition: none !important; */
@@ -163,10 +164,7 @@ a::after {
 
 /* Add an active class to highlight the current page */
 #active {
-  /* filter: drop-shadow(0 0 0.15em black);
-  transform: scale(1.2); */
-  transform: scale(1.1);
-  border-bottom: 0.2vw solid white;
+  border-bottom: 0.1vw solid white;
   filter: drop-shadow(0 1px 0.7px black);
 }
 

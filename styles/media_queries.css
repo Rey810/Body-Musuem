@@ -52,15 +52,12 @@
   background-attachment: fixed;
   }
 
-  #active {
-    transform: scale(1.2);
-  }
   
   .top_home {
     font-size: 4vw  !important;
   }
   .topnav a {
-     font-size: 1.5vw;
+     font-size: 1.2vw;
    }
 
   .gallery_title_area {
@@ -72,16 +69,15 @@
 
   #land_describe {
     z-index: 3;
-    color: black;
-    opacity: 0.85;
-    letter-spacing: 1.55em;
+    color: white;
     text-transform: uppercase;
-    background: #de5fab;
     width: max-content;
-    padding: 0.3em 0.3em 0.3em 1.5em;
+    padding: 2em 1em;
     position: relative;
-    font-size: 1.3em;
+    font-size: 4em;
     border-radius: 2em;
+    
+
   }
 
    li.logo {
@@ -144,7 +140,7 @@
   #about_header {
     font-style: italic;
     padding: 0 28vw 0 26vw;
-    font-size: 1.2em;
+    font-size: 1.5em;
     line-height: inherit;
     font-weight: 500;
   }
@@ -178,9 +174,8 @@
       background-attachment: fixed;
     }
 
-  #active {
-    transform: scale(1.2);
-  }
+
+
   
   .top_home {
     font-size: 4vw  !important;
@@ -385,10 +380,6 @@
       background-attachment: fixed;
     }
 
-  #active {
-    transform: scale(1.2);
-  }
-  
     .top_home {
       font-size: calc(var(--vh, 1vh) * 5) !important;
     }

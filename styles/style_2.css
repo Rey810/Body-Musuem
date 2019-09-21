@@ -108,8 +108,6 @@
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-image: -webkit-gradient(linear, left bottom, right top, from(#1963ab), color-stop(#3364af), color-stop(#4665b3), color-stop(#5665b7), color-stop(#6665b9), color-stop(#7765bb), color-stop(#8765bb), color-stop(#9664bb), color-stop(#aa63b9), color-stop(#bc61b6), color-stop(#ce60b1), to(#de5fab));
-  background-image: linear-gradient(to right top, #1963ab, #3364af, #4665b3, #5665b7, #6665b9, #7765bb, #8765bb, #9664bb, #aa63b9, #bc61b6, #ce60b1, #de5fab);
   opacity: 0.7;
 }
 
@@ -482,59 +480,6 @@ html {
           box-sizing: border-box;
 }
 
-.fav_gallery_intro, .movie_gallery_intro, .party_gallery_intro, .work_gallery_intro, .com_gallery_intro, .cof_gallery_intro {
-  position: relative;
-  display: inline-block;
-  z-index: 0;
-}
-
-.fav_gallery_intro::before, .movie_gallery_intro::before, .party_gallery_intro::before, .work_gallery_intro::before, .com_gallery_intro::before, .cof_gallery_intro::before, .fav_gallery_intro::after, .movie_gallery_intro::after, .party_gallery_intro::after, .work_gallery_intro::after, .com_gallery_intro::after, .cof_gallery_intro::after {
-  content: '';
-  height: 100%;
-  display: block;
-  position: absolute;
-  top: 0;
-}
-
-.fav_gallery_intro::before, .movie_gallery_intro::before, .party_gallery_intro::before, .work_gallery_intro::before, .com_gallery_intro::before, .cof_gallery_intro::before {
-  background: #181818;
-  height: 101%;
-  z-index: -1;
-  left: -0.2em;
-  right: -0.2em;
-}
-
-.fav_gallery_intro::after, .movie_gallery_intro::after, .party_gallery_intro::after, .work_gallery_intro::after, .com_gallery_intro::after, .cof_gallery_intro::after {
-  background: #E4599A;
-  width: 100vw;
-  left: 50%;
-  /*2 lines to center something on screen*/
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  top: 0;
-  z-index: -2;
-}
-
-.movie_gallery_intro::after {
-  background: #D79922;
-}
-
-.party_gallery_intro::after {
-  background: #565656;
-}
-
-.work_gallery_intro::after {
-  background: #F13C20;
-}
-
-.com_gallery_intro::after {
-  background: #66FCF1;
-}
-
-.cof_gallery_intro::after {
-  background: #004489;
-}
-
 #h3 {
   display: none;
 }
@@ -609,43 +554,6 @@ html {
   transition: ease 0.4s all;
 }
 
-.main_pic_block#landfav {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.main_pic_block#landcof {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.main_pic_block#landmovie {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.main_pic_block#landparty {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.main_pic_block#landwork {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.main_pic_block#landcom {
-  -webkit-filter: drop-shadow(0.3em 0.3em 0.08em black);
-          filter: drop-shadow(0.3em 0.3em 0.08em black);
-}
-
-.pic_block img {
-  border-radius: 7%;
-}
-
-.main_pic_block img {
-  border-radius: 0 0 7% 7%;
-}
 
 .gal_name {
   width: 100%;
@@ -805,11 +713,15 @@ body {
 }
 
 .perf_colours {
-  color: #f7ec5e !important;
+  border-radius: 0.85em;
+  padding: 1em 0;
+  font-size: 1.2em;
 }
 
 .val_colour {
-  color: #b950ec !important;
+  background: hsla(280, 79%, 62%, 0.425);
+  padding: 4em;
+  margin-bottom: 3em;
 }
 
 .large_screen_colour {
@@ -829,7 +741,7 @@ body {
 
 .text_body h4 {
   color: white;
-  text-decoration: overline;
+  padding: 1em 0;
 }
 
 /*Performance and about page*/
@@ -855,8 +767,8 @@ body {
   margin: 1em 0;
 }
 
-.val_member_info {
-  padding-left: 2em;
+.val_member_info, .rey_member_info {
+  padding-left: 20%;
 }
 
 .val_bio_name h3, .rey_bio_name h3 {
@@ -876,6 +788,7 @@ body {
 .val_bio_describe, .rey_bio_describe {
   padding-right: 1em;
   font-weight: 500;
+  text-align: left;
 }
 
 .rey_bio_describe a {
@@ -891,10 +804,6 @@ body {
 
 .rey_bio_pic {
   border: 0.3em solid #229ED7;
-}
-
-.rey_member_info {
-  padding-left: 2em;
 }
 
 .rey_bio_title h4 {
