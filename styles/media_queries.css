@@ -65,6 +65,19 @@
       text-align: center;
       text-align: -webkit-center;
       text-align: -moz-center;
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 4em;
+  }
+
+  .land_bg_gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background-color:black;
+    opacity: 0.6;
   }
 
   #land_describe {
@@ -556,8 +569,8 @@
         right: 0;
         bottom: 0;
         z-index: 0;
-        background-image: linear-gradient(to right top, #1963ab, #3364af, #4665b3, #5665b7, #6665b9, #7765bb, #8765bb, #9664bb, #aa63b9, #bc61b6, #ce60b1, #de5fab);
-        opacity: 0.5;
+        background-color: black;
+        opacity: 0.6;
       }
 
        #land_describe {
@@ -566,8 +579,7 @@
 
       .mobile_image {
         background-color: black;
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-        url(../Media/new_header_phone.jpg);
+        background-image: url(../Media/new_header_phone.jpg);
         background-size: contain;
         background-position: right;
       }
@@ -582,6 +594,8 @@
 
       #mobile_main {
         padding-left: 0 !important;
+        color: rgba(255, 255, 255, 0.85);
+        font-size: 2em;
       }
 
       .exp_mobile_main {
@@ -615,12 +629,7 @@
     padding: 0 3vw;
   }
 
-  /*gallery intro area */
-  .gallery_title_area {
-    padding-left: 5vw;
-    line-height: 2.5em;
 
-  }
 
   .gallery_title_text {
     line-height: 1.2em;
@@ -754,12 +763,6 @@
   .main_pic_block#landfav {
     background-color: #E4599A;
     background-image: url("../Media/fav/jo_fav-min.jpg");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/fav/jo_fav-min.jpg");
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/fav/jo_fav-min.jpg");
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/fav/jo_fav-min.jpg");
     background-position: center center;
 -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -769,12 +772,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
    .main_pic_block#landcof {
  background-color: rgba(0, 68, 137, 0.612);
  background-image: url("../Media/cofshop/val_coffee-header.JPG");
- background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
- url("../Media/cofshop/val_coffee-header.JPG");
- background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
- url("../Media/cofshop/val_coffee-header.JPG");
- background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
- url("../Media/cofshop/val_coffee-header.JPG");
+
  background-position: left center;
     -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -784,24 +782,14 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
    .mobile_cof_image {
      background-color: #66FCF1;
      background-image: url("../Media/cofshop/val_coffee-header.JPG");
-     background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-     url("../Media/cofshop/val_coffee-header.JPG");
-     background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-     url("../Media/cofshop/val_coffee-header.JPG");
-     background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-     url("../Media/cofshop/val_coffee-header.JPG");
+
      background-position:   left center;
    }
 
     .main_pic_block#landmovie {
    background-color: #D79922;
    background-image: url("../Media/movie/ning_5-min.JPG");
-   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-   url("../Media/movie/ning_5-min.JPG");
-   background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-   url("../Media/movie/ning_5-min.JPG");
-   background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-   url("../Media/movie/ning_5-min.JPG");
+
    background-position: center center;
     -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -811,12 +799,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
      .main_pic_block#landparty {
        background-color: #565656;
        background-image: url("../Media/party/jo_4-min.JPG");
-       background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-       url("../Media/party/jo_4-min.JPG");
-       background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-       url("../Media/party/jo_4-min.JPG");
-       background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-       url("../Media/party/jo_4-min.JPG");
+
        background-position: center center;
      -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
      -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -826,12 +809,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
       .main_pic_block#landwork {
   background-color: #F13C20;
   background-image: url("../Media/wrk/pd_3-header.JPG");
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-  url("../Media/wrk/pd_3-header.JPG");
-  background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-  url("../Media/wrk/pd_3-header.JPG");
-  background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-  url("../Media/wrk/pd_3-header.JPG");
+
   background-position: center center;
     -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
@@ -841,12 +819,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
        .main_pic_block#landcom {
     background-color: #66FCF1;
     background-image: url("../Media/com/pam_2-min.JPG");
-    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/com/pam_2-min.JPG");
-    background-image: -webkit-linear-gradient(top, rgba(245, 246, 252, 0.22), rrgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/com/pam_2-min.JPG");
-    background-image: -moz-linear-gradient(to bottom, rgba(245, 246, 252, 0.22), rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.33)),
-    url("../Media/com/pam_2-min.JPG");
+
     background-position: bottom center;
     -webkit-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
     -moz-box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
