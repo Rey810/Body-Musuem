@@ -788,6 +788,12 @@ body {
   font-size: 0.8em !important;
 }
 
+.describe {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: left;
+  padding: 0 .5em;
+}
+
 mark {
   background-color: #D79922;
 }

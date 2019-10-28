@@ -308,6 +308,8 @@
 
 @media (min-width: 768px) and (max-width: 1024px) {
 
+
+
       .gallery_banner {
         background-attachment: fixed;
       }
@@ -913,6 +915,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 
 .val_bio_describe {
   margin-bottom: 3em;
+    padding: 0 .5em 0 0;
 }
 
 .rey_bio_pic {
@@ -930,6 +933,7 @@ box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
 
 .rey_bio_describe {
   margin-bottom: 3em;
+    padding: 0 .5em 0 0;
 }
 
 .rey_member_info {
