@@ -212,6 +212,8 @@
   font-size: 3EM;
   width: 100%;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 #angle_down {

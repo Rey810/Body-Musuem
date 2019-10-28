@@ -71,7 +71,7 @@
       color: rgba(255, 255, 255, 0.85);
   }
 
-  #landingTitle { font-size: 4em; }
+  #landingTitle { font-size: 10em; }
 
   .land_bg_gradient {
     position: absolute;
