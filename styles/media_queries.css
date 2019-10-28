@@ -139,6 +139,14 @@
     padding: 0 25vw;
   }
 
+  .text_body h4 {
+    font-size: 1.6em;
+  }
+
+  .learn_more_text_body {
+    padding: 0;
+  }
+
 
   .perfGrid {
     display: grid;

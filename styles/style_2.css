@@ -617,7 +617,6 @@ html {
   color: rgba(255, 255, 255, 0.9);
   text-align: left;
   font-weight: 400;
-  font-size: 1.1em;
 }
 
 .quote_author {
@@ -798,7 +797,7 @@ mark {
   padding-top: 2em;
   display: -ms-grid;
   display: grid;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -830,7 +829,7 @@ mark {
 }
 
 .val_bio_describe, .rey_bio_describe {
-  font-weight: 500;
+  font-weight: 400;
   text-align: left;
 }
 
