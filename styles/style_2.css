@@ -831,6 +831,7 @@ mark {
 .val_bio_describe, .rey_bio_describe {
   font-weight: 400;
   text-align: left;
+  padding: 0 7em;
 }
 
 .rey_bio_describe a {
