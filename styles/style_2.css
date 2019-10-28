@@ -612,7 +612,7 @@ html {
 }
 
 .text_body p {
-  color: rgba(255, 255, 255, 0.76);
+  color: rgba(255, 255, 255, 0.9);
   text-align: left;
   font-weight: 400;
   font-size: 1.1em;
@@ -761,14 +761,6 @@ body {
   width: 100%;
 }
 
-.perf_colours {
-  color: #f7ec5e !important;
-}
-
-.val_colour {
-  color: #b950ec !important;
-}
-
 .large_screen_colour {
   color: #004489;
 }
@@ -780,18 +772,23 @@ body {
 /*Performance page*/
 .text_body h3 {
   text-align: center;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.5em;
 }
 
 .text_body h4 {
-  color: white;
-  text-decoration: overline;
+  color: rgba(255, 255, 255, 0.9);
+  -webkit-text-emphasis: bold;
+          text-emphasis: bold;
 }
 
 /*Performance and about page*/
 .reference {
   font-size: 0.8em !important;
+}
+
+mark {
+  background-color: #D79922;
 }
 
 /*Bio Page*/
@@ -831,8 +828,9 @@ body {
 }
 
 .val_bio_describe, .rey_bio_describe {
-  padding-right: 1em;
+  padding: 0 10em;
   font-weight: 500;
+  text-align: left;
 }
 
 .rey_bio_describe a {

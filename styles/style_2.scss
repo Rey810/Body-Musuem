@@ -40,15 +40,6 @@ body {
   }
 
 
-
-.perf_colours {
-        color: #f7ec5e !important;
-}
-
-.val_colour {
-    color: #b950ec !important;
-}
-
 .large_screen_colour {
     color: #004489;
 }
@@ -62,13 +53,13 @@ body {
 /*Performance page*/
 .text_body h3 {
     text-align: center;
-    color: hsla(0,0%,100%,86%);
+    color: hsla(0,0%,100%,0.9);
     font-size: 1.5em;
 }
 
 .text_body h4 {
-    color: hsla(0,0%,100%,86%);
-    text-decoration: overline;
+    color: hsla(0,0%,100%,0.9);
+    text-emphasis: bold;
 }
 
 /*Performance and about page*/
@@ -76,6 +67,7 @@ body {
     font-size: 0.8em !important;
 }
 
+mark { background-color: #D79922;}
 
 /*Bio Page*/
 .team_members_container {
@@ -111,8 +103,9 @@ body {
 }
 
 .val_bio_describe, .rey_bio_describe {
-    padding-right: 1em;
+    padding: 0 10em;
     font-weight: 500;
+    text-align: left;
 }
 
 
