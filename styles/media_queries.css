@@ -49,6 +49,8 @@
         margin-bottom: 0em;
       }
 
+      .val_bio_decribe, .rey_bio_describe { padding: 0 10em; }
+
   .gallery_banner {
   background-attachment: fixed;
   }
