@@ -135,6 +135,9 @@
      flex-direction: row;
   }
 
+  #gallery_text_body p {
+    padding: 0;
+  }
   .text_body p {
     padding: 0 25vw;
   }
@@ -737,7 +740,12 @@
    }
 
 .pic_block {
-  margin: 1em;
+  margin: 1em 0;
+}
+
+.pic_block img {
+  border-radius: 0;
+  width: 100vw;
 }
 
 .pic_block h3 {
