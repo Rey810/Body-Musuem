@@ -7,22 +7,15 @@
   <meta charset='utf-8'>
   <meta name="theme-color" content="black">
   <link href='styles/style_2.css' rel="stylesheet">
-  <link href='styles/nav_bar_2.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles/media_queries.css">
-  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500i" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Alegreya:500" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css?v=<?= date('YmdHis')">
   <link rel="icon" href="Media/BM.ico">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 
-  <script type="text/javascript" src="scripts/nav_bar.js" async></script>
-  <script type="text/javascript" src="scripts/scroll_fix.js" async></script>
-  <!-- <script type="text/javascript" src="scroll_nav.js" async></script> -->
+  <script type="text/javascript" src="scripts/allJs.js" async></script>
 
-  <!-- <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101181237);</script>
-  <script async src="//static.getclicky.com/js"></script> -->
 
 </head>
 
@@ -57,44 +50,9 @@
 
     <section class = 'main_galleries'>
 
-
-
-
-
-
-
-
-
-
-
-<!-- <section class="section section--nav" id="Shamso">
-  <div class="nav nav--shamso">
-    <button class="nav__item" aria-label="Item 1"><span class="nav__item-title">favourite</span></button>
-    <button class="nav__item nav__item--current" aria-label="Item 2"><span
-        class="nav__item-title">coffee shop</span></button>
-    <button class="nav__item" aria-label="Item 3"><span class="nav__item-title">commuting</span></button>
-    <button class="nav__item" aria-label="Item 4"><span class="nav__item-title">overworked</span></button>
-    <button class="nav__item" aria-label="Item 5"><span class="nav__item-title">house party</span></button>
-    <button class="nav__item" aria-label="Item 6"><span class="nav__item-title">movie theatre</span></button>
-    </div>
-</section> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
       <div style='margin-top: 0; padding-top: 5vh;'class = 'landing_gallery gallery'>
 
-          <a class='main_pic_block pic_block' id='landfav' href="gallery_fav.html">
+          <a class='main_pic_block pic_block card' id='landfav' href="gallery_fav.html">
                         <img alt='Favourite Gallery'src='Media/title_gal_fav.jpg' srcset="Media/title_gal_fav.jpg 640w" sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                       (min-width: 1000px) 35vw,
                       254px,">
@@ -102,7 +60,7 @@
             </div>
         </a>
 
-                <a class = 'main_pic_block pic_block' id='landcof' href='gallery_cof.html'>
+                <a class = 'main_pic_block pic_block card' id='landcof' href='gallery_cof.html'>
                       <img alt='Coffee Shop Gallery' src='Media/cofshop/kons_1-header.JPG'
                         srcset="Media/cofshop/kons_1-header.JPG 640w" sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
                       (min-width: 1000px) 18vw,
@@ -112,7 +70,7 @@
             </div>
             </a>
         
-                <a class = 'main_pic_block pic_block' id = 'landcom' href="gallery_com.html">
+                <a class = 'main_pic_block pic_block card' id = 'landcom' href="gallery_com.html">
                             <img alt='Commuting Gallery' src='Media/com/pam_2-min-main.JPG'
                               srcset="Media/com/pam_2-min-main.JPG 640w"
                               sizes="(max-width: 480px) 90vw, (max-width: 900px) 90vw,
@@ -121,7 +79,7 @@
                     <h3>Commuting</h3>
                   </div>
                 </a>
-                 <a class = 'main_pic_block pic_block' id = 'landwork' href='gallery_work.html'>
+                 <a class = 'main_pic_block pic_block card' id = 'landwork' href='gallery_work.html'>
                                   <img alt='Work Gallery' src='Media/title_gal_3.JPG'
                                     srcset="Media/title_gal_3.JPG 640w"
                                     sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
@@ -132,7 +90,7 @@
                   </div>
                 </a>
                              
-              <a class = 'main_pic_block pic_block' id = 'landparty' href="gallery_party.html">
+              <a class = 'main_pic_block pic_block card' id = 'landparty' href="gallery_party.html">
                                   <img alt='Party Gallery' src='Media/title_gal_4.jpg'
                                     srcset="Media/title_gal_4.jpg 640w"
                                     sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
@@ -143,7 +101,7 @@
                   </div>
                 </a>
                              
-              <a class = 'main_pic_block pic_block' id = 'landmovie' href='gallery_movie.html'>
+              <a class = 'main_pic_block pic_block card' id = 'landmovie' href='gallery_movie.html'>
                                   <img alt='Movie Gallery' src='Media/movie/ning_5-min-main.JPG'
                                     srcset="Media/movie/ning_5-min-main.JPG 640w"
                                     sizes="(max-width: 480px) 90vw, (max-width: 900px) 33vw,
