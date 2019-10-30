@@ -780,7 +780,7 @@
 
 
   .main_pic_block {
-   width: calc(var(--vw, 1vw) * 70);
+   width: calc(var(--vw, 1vw) * 60);
    display: inline-block;
    height: 90%; 
    background-size: cover;
