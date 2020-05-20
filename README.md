@@ -1,4 +1,4 @@
-# Body-Musuem
+# Body-Musuem [![Netlify Status](https://api.netlify.com/api/v1/badges/f8d6f528-e310-44d8-877f-99de3ccac81e/deploy-status)](https://app.netlify.com/sites/bodymuseum/deploys)
 ## Overview 
 Online gallery displaying an ethnographic photography project
 
