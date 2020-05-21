@@ -2,6 +2,9 @@
 ## Overview 
 Online gallery displaying an ethnographic photography project
 
+## Demo
+![Body Museum Demo Gif](demo/bodymuseum-demo.gif)
+
 ## Goals
 Create an online gallery that:
   - is fast 
